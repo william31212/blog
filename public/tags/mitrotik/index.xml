@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mitrotik on William&#39;s Blog</title>
+    <link>http://localhost:1313/tags/mitrotik/</link>
+    <description>Recent content in Mitrotik on William&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 31 Oct 2021 10:06:23 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/mitrotik/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RouterOS-OVPN-Setting</title>
+      <link>http://localhost:1313/2021/10/routeros-ovpn-setting/</link>
+      <pubDate>Sun, 31 Oct 2021 10:06:23 +0000</pubDate>
+      <guid>http://localhost:1313/2021/10/routeros-ovpn-setting/</guid>
+      <description>&lt;p&gt;RouterOS 自架 OpenVPN&lt;/p&gt;&#xA;&lt;h1 id=&#34;routeros-自架-openvpn&#34;&gt;RouterOS 自架 OpenVPN&lt;/h1&gt;&#xA;&lt;h2 id=&#34;型號--版本&#34;&gt;型號 / 版本&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Mitrotik hAP ac² / RouterOS v6.47.10 / $2730 TWD&lt;/li&gt;&#xA;&lt;li&gt;因為有 VPN 需求，而從蝦皮購入此台 Router，此台有 AP 功能&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;產憑證&#34;&gt;產憑證&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;因為 &lt;code&gt;OpenVPN&lt;/code&gt; 要求要有憑證才能連線，因此必須產憑證給它&lt;/li&gt;&#xA;&lt;li&gt;透過 &lt;code&gt;Openssl&lt;/code&gt; 自產憑證，餵給 &lt;code&gt;RouterOS&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# 使用 RSA 演算法產生 2048 bit 長度私鑰 (ca.key)&#xA;openssl genrsa -out ca.key 2048&#xA;# 簽發憑證 (ca.crt)&#xA;openssl req -new -x509 -key ca.key -out ca.crt&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;餵憑證&#34;&gt;餵憑證&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;開 Files，把 &lt;code&gt;ca.crt&lt;/code&gt;跟 &lt;code&gt;ca.key&lt;/code&gt; 匯入&#xA;&lt;img src=&#34;https://i.imgur.com/toiGhtV.png&#34; alt=&#34;Upload&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;開terminal，匯入到 System 中的 Cerificates&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;這邊利用 cli 進行匯入， 因為用GUI的我一直失敗&#xA;&lt;img src=&#34;https://i.imgur.com/CNnXdQK.png&#34; alt=&#34;Terminal&#34;&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;/certificate import file-name=ca.crt&#xA;# output&#xA;passphrase: &#xA;    certificates-imported: 1&#xA;    private-keys-imported: 0&#xA;           files-imported: 1&#xA;      decryption-failures: 0&#xA; keys-with-no-certificate: 0&#xA;&#xA;&#xA;/certificate import file-name=ca.key&#xA;# output&#xA;passphrase: &#xA;    certificates-imported: 0&#xA;    private-keys-imported: 1&#xA;           files-imported: 1&#xA;      decryption-failures: 0&#xA; keys-with-no-certificate: 0&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;ppp-設定-ovpn-server&#34;&gt;PPP 設定 OVPN Server&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/n5YWWSW.png&#34; alt=&#34;Image&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
