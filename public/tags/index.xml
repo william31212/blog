@@ -2,157 +2,157 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on William&#39;s Blog</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>http://localhost:1313/blog/tags/</link>
     <description>Recent content in Tags on William&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 31 Oct 2021 10:06:23 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mitrotik</title>
-      <link>http://localhost:1313/tags/mitrotik/</link>
+      <link>http://localhost:1313/blog/tags/mitrotik/</link>
       <pubDate>Sun, 31 Oct 2021 10:06:23 +0000</pubDate>
-      <guid>http://localhost:1313/tags/mitrotik/</guid>
+      <guid>http://localhost:1313/blog/tags/mitrotik/</guid>
       <description></description>
     </item>
     <item>
       <title>OpenVPN</title>
-      <link>http://localhost:1313/tags/openvpn/</link>
+      <link>http://localhost:1313/blog/tags/openvpn/</link>
       <pubDate>Sun, 31 Oct 2021 10:06:23 +0000</pubDate>
-      <guid>http://localhost:1313/tags/openvpn/</guid>
+      <guid>http://localhost:1313/blog/tags/openvpn/</guid>
       <description></description>
     </item>
     <item>
       <title>RouterOS</title>
-      <link>http://localhost:1313/tags/routeros/</link>
+      <link>http://localhost:1313/blog/tags/routeros/</link>
       <pubDate>Sun, 31 Oct 2021 10:06:23 +0000</pubDate>
-      <guid>http://localhost:1313/tags/routeros/</guid>
+      <guid>http://localhost:1313/blog/tags/routeros/</guid>
       <description></description>
     </item>
     <item>
       <title>Ctf</title>
-      <link>http://localhost:1313/tags/ctf/</link>
+      <link>http://localhost:1313/blog/tags/ctf/</link>
       <pubDate>Sat, 25 Jul 2020 19:53:08 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ctf/</guid>
+      <guid>http://localhost:1313/blog/tags/ctf/</guid>
       <description></description>
     </item>
     <item>
       <title>Koth</title>
-      <link>http://localhost:1313/tags/koth/</link>
+      <link>http://localhost:1313/blog/tags/koth/</link>
       <pubDate>Sat, 25 Jul 2020 19:53:08 +0000</pubDate>
-      <guid>http://localhost:1313/tags/koth/</guid>
+      <guid>http://localhost:1313/blog/tags/koth/</guid>
       <description></description>
     </item>
     <item>
       <title>Record</title>
-      <link>http://localhost:1313/tags/record/</link>
+      <link>http://localhost:1313/blog/tags/record/</link>
       <pubDate>Sat, 25 Jul 2020 19:53:08 +0000</pubDate>
-      <guid>http://localhost:1313/tags/record/</guid>
+      <guid>http://localhost:1313/blog/tags/record/</guid>
       <description></description>
     </item>
     <item>
       <title>Summer Vacation</title>
-      <link>http://localhost:1313/tags/summer-vacation/</link>
+      <link>http://localhost:1313/blog/tags/summer-vacation/</link>
       <pubDate>Sat, 25 Jul 2020 19:53:08 +0000</pubDate>
-      <guid>http://localhost:1313/tags/summer-vacation/</guid>
+      <guid>http://localhost:1313/blog/tags/summer-vacation/</guid>
       <description></description>
     </item>
     <item>
       <title>Blog</title>
-      <link>http://localhost:1313/tags/blog/</link>
+      <link>http://localhost:1313/blog/tags/blog/</link>
       <pubDate>Sun, 28 Jun 2020 13:16:47 +0000</pubDate>
-      <guid>http://localhost:1313/tags/blog/</guid>
+      <guid>http://localhost:1313/blog/tags/blog/</guid>
       <description></description>
     </item>
     <item>
       <title>Font</title>
-      <link>http://localhost:1313/tags/font/</link>
+      <link>http://localhost:1313/blog/tags/font/</link>
       <pubDate>Sun, 28 Jun 2020 13:16:47 +0000</pubDate>
-      <guid>http://localhost:1313/tags/font/</guid>
+      <guid>http://localhost:1313/blog/tags/font/</guid>
       <description></description>
     </item>
     <item>
       <title>Tranquilpeak</title>
-      <link>http://localhost:1313/tags/tranquilpeak/</link>
+      <link>http://localhost:1313/blog/tags/tranquilpeak/</link>
       <pubDate>Sun, 28 Jun 2020 13:16:47 +0000</pubDate>
-      <guid>http://localhost:1313/tags/tranquilpeak/</guid>
+      <guid>http://localhost:1313/blog/tags/tranquilpeak/</guid>
       <description></description>
     </item>
     <item>
       <title>Ais3</title>
-      <link>http://localhost:1313/tags/ais3/</link>
+      <link>http://localhost:1313/blog/tags/ais3/</link>
       <pubDate>Wed, 10 Jun 2020 11:44:53 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ais3/</guid>
+      <guid>http://localhost:1313/blog/tags/ais3/</guid>
       <description></description>
     </item>
     <item>
       <title>Writeup</title>
-      <link>http://localhost:1313/tags/writeup/</link>
+      <link>http://localhost:1313/blog/tags/writeup/</link>
       <pubDate>Wed, 10 Jun 2020 11:44:53 +0000</pubDate>
-      <guid>http://localhost:1313/tags/writeup/</guid>
+      <guid>http://localhost:1313/blog/tags/writeup/</guid>
       <description></description>
     </item>
     <item>
       <title>GSS</title>
-      <link>http://localhost:1313/tags/gss/</link>
+      <link>http://localhost:1313/blog/tags/gss/</link>
       <pubDate>Tue, 21 Apr 2020 21:34:32 +0000</pubDate>
-      <guid>http://localhost:1313/tags/gss/</guid>
+      <guid>http://localhost:1313/blog/tags/gss/</guid>
       <description></description>
     </item>
     <item>
       <title>2019</title>
-      <link>http://localhost:1313/tags/2019/</link>
+      <link>http://localhost:1313/blog/tags/2019/</link>
       <pubDate>Sun, 20 Oct 2019 13:34:14 +0000</pubDate>
-      <guid>http://localhost:1313/tags/2019/</guid>
+      <guid>http://localhost:1313/blog/tags/2019/</guid>
       <description></description>
     </item>
     <item>
       <title>Picoctf</title>
-      <link>http://localhost:1313/tags/picoctf/</link>
+      <link>http://localhost:1313/blog/tags/picoctf/</link>
       <pubDate>Sun, 20 Oct 2019 13:34:14 +0000</pubDate>
-      <guid>http://localhost:1313/tags/picoctf/</guid>
+      <guid>http://localhost:1313/blog/tags/picoctf/</guid>
       <description></description>
     </item>
     <item>
       <title>Reverse</title>
-      <link>http://localhost:1313/tags/reverse/</link>
+      <link>http://localhost:1313/blog/tags/reverse/</link>
       <pubDate>Sun, 20 Oct 2019 13:34:14 +0000</pubDate>
-      <guid>http://localhost:1313/tags/reverse/</guid>
+      <guid>http://localhost:1313/blog/tags/reverse/</guid>
       <description></description>
     </item>
     <item>
       <title>Dp</title>
-      <link>http://localhost:1313/tags/dp/</link>
+      <link>http://localhost:1313/blog/tags/dp/</link>
       <pubDate>Wed, 14 Aug 2019 15:27:53 +0000</pubDate>
-      <guid>http://localhost:1313/tags/dp/</guid>
+      <guid>http://localhost:1313/blog/tags/dp/</guid>
       <description></description>
     </item>
     <item>
       <title>Uva</title>
-      <link>http://localhost:1313/tags/uva/</link>
+      <link>http://localhost:1313/blog/tags/uva/</link>
       <pubDate>Wed, 14 Aug 2019 15:27:53 +0000</pubDate>
-      <guid>http://localhost:1313/tags/uva/</guid>
+      <guid>http://localhost:1313/blog/tags/uva/</guid>
       <description></description>
     </item>
     <item>
       <title>String</title>
-      <link>http://localhost:1313/tags/string/</link>
+      <link>http://localhost:1313/blog/tags/string/</link>
       <pubDate>Wed, 14 Aug 2019 14:52:19 +0000</pubDate>
-      <guid>http://localhost:1313/tags/string/</guid>
+      <guid>http://localhost:1313/blog/tags/string/</guid>
       <description></description>
     </item>
     <item>
       <title>Diary</title>
-      <link>http://localhost:1313/tags/diary/</link>
+      <link>http://localhost:1313/blog/tags/diary/</link>
       <pubDate>Sat, 13 Jul 2019 09:34:36 +0000</pubDate>
-      <guid>http://localhost:1313/tags/diary/</guid>
+      <guid>http://localhost:1313/blog/tags/diary/</guid>
       <description></description>
     </item>
     <item>
       <title>First</title>
-      <link>http://localhost:1313/tags/first/</link>
+      <link>http://localhost:1313/blog/tags/first/</link>
       <pubDate>Fri, 22 Feb 2019 10:55:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/first/</guid>
+      <guid>http://localhost:1313/blog/tags/first/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>GSS on William&#39;s Blog</title>
-    <link>http://localhost:1313/tags/gss/</link>
+    <link>http://localhost:1313/blog/tags/gss/</link>
     <description>Recent content in GSS on William&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 21 Apr 2020 21:34:32 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/gss/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/gss/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GSS-03</title>
-      <link>http://localhost:1313/2020/04/gss-03/</link>
+      <link>http://localhost:1313/blog/2020/04/gss-03/</link>
       <pubDate>Tue, 21 Apr 2020 21:34:32 +0000</pubDate>
-      <guid>http://localhost:1313/2020/04/gss-03/</guid>
+      <guid>http://localhost:1313/blog/2020/04/gss-03/</guid>
       <description>&lt;h2 id=&#34;前情提要&#34;&gt;前情提要&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;沒想到更新已經是兩個月後的事了，結果因為專題關係，我離開GSS了&lt;/li&gt;&#xA;&lt;li&gt;不過多了許多時間弄專題跟資訊安全研究，還有看棒球&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;course4-mvc&#34;&gt;Course4 MVC&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;使用&lt;code&gt;C#&lt;/code&gt;來寫MVC架構，用原生MVC中的Html Helper Function&lt;/li&gt;&#xA;&lt;li&gt;Model(資料模型)、View(秀出頁面)、Controller(資料邏輯判斷)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;遇到的坑&#34;&gt;遇到的坑&lt;/h2&gt;&#xA;&lt;h3 id=&#34;model&#34;&gt;Model&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;字串串接SQL語句，SQL-injeciton風險&lt;/li&gt;&#xA;&lt;li&gt;T-SQL(拿系統時間function，新舊版的不同)&#xA;&lt;ul&gt;&#xA;&lt;li&gt;可能遇到的風險&#xA;&lt;ul&gt;&#xA;&lt;li&gt;當用戶使用舊版的MSSQL，遇到新語句會發生bug&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;SYSDATETIME()&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;GETDATE()&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;view&#34;&gt;View&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;Html.HiddenFor()&lt;/code&gt;可以藏值，可以使用&lt;code&gt;model_binding&lt;/code&gt;拿&lt;code&gt;BOOK_ID&lt;/code&gt;不用querystring&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;controller&#34;&gt;Controller&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;SELECT SCOPE_IDENTITY()&lt;/code&gt; 可拿編號&lt;/li&gt;&#xA;&lt;li&gt;HTMLencode prevent &lt;code&gt;&amp;lt;BR&amp;gt;&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;html attr =&amp;gt; MVC method (e.g. Querystring)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;coding-style&#34;&gt;Coding Style&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;專案名稱前面大寫，取名漂亮一些&lt;/li&gt;&#xA;&lt;li&gt;區域變數要用小寫&lt;/li&gt;&#xA;&lt;li&gt;Vscode plugin參與團隊專案會有狀況出現&lt;/li&gt;&#xA;&lt;li&gt;命名命的長然後清楚為原則，if一行還是要大括號&lt;/li&gt;&#xA;&lt;li&gt;sql更改欄位名稱不要有符號&lt;/li&gt;&#xA;&lt;li&gt;enum 定義變數較彈性&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://docs.microsoft.com/zh-tw/dotnet/api/system.enum?view=netframework-4.8&#34;&gt;https://docs.microsoft.com/zh-tw/dotnet/api/system.enum?view=netframework-4.8&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;駝峰式命名&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://zh.wikipedia.org/wiki/%E9%A7%9D%E5%B3%B0%E5%BC%8F%E5%A4%A7%E5%B0%8F%E5%AF%AB&#34;&gt;https://zh.wikipedia.org/wiki/%E9%A7%9D%E5%B3%B0%E5%BC%8F%E5%A4%A7%E5%B0%8F%E5%AF%AB&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;變數名稱&lt;del&gt;bi&lt;/del&gt; XD&lt;/li&gt;&#xA;&lt;li&gt;&lt;del&gt;讓自己的變數命名死去&lt;/del&gt; KEEP GOING!&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>GSS-02</title>
-      <link>http://localhost:1313/2020/02/gss-02/</link>
+      <link>http://localhost:1313/blog/2020/02/gss-02/</link>
       <pubDate>Sat, 22 Feb 2020 14:16:48 +0000</pubDate>
-      <guid>http://localhost:1313/2020/02/gss-02/</guid>
+      <guid>http://localhost:1313/blog/2020/02/gss-02/</guid>
       <description>&lt;h2 id=&#34;course3-前端的基礎訓練&#34;&gt;Course3 前端的基礎訓練&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;這是使用kendo-ui做的一個圖書管理系統，主要是熟習整個lib的操作&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;以下分享各種坑&#34;&gt;以下分享各種坑&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;新增&#xA;&lt;ul&gt;&#xA;&lt;li&gt;日期驗證，給年份月份，即可通過驗證&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;建議的寫法&#34;&gt;建議的寫法&lt;/h3&gt;&#xA;&lt;h4 id=&#34;清除時能夠將資料清空方便下一筆輸入&#34;&gt;清除時，能夠將資料清空，方便下一筆輸入&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;可以將清空包在function裡&lt;/li&gt;&#xA;&lt;li&gt;能夠做二次確認，避免誤觸&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;coding-style&#34;&gt;coding style&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;div包div不需縮排&lt;/li&gt;&#xA;&lt;li&gt;style重複性過高，能夠將其劃分到css做整理&lt;/li&gt;&#xA;&lt;li&gt;CSS做整合&lt;/li&gt;&#xA;&lt;li&gt;統一利用kendo取值，會比JQuery來的好，因為kendo有部分有例外處理&lt;/li&gt;&#xA;&lt;li&gt;格式能夠整合再一起，(ex: yyyy-MM-dd)&lt;/li&gt;&#xA;&lt;li&gt;注意id 與class的使用&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;當時學的小技巧雖然很像大家都知道&#34;&gt;當時學的小技巧，雖然很像大家都知道&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;VS 按F12可以回追function的來源位置&lt;/p&gt;&lt;/blockquote&gt;</description>
     </item>
     <item>
       <title>GSS_01</title>
-      <link>http://localhost:1313/2020/02/gss_01/</link>
+      <link>http://localhost:1313/blog/2020/02/gss_01/</link>
       <pubDate>Mon, 17 Feb 2020 20:37:33 +0000</pubDate>
-      <guid>http://localhost:1313/2020/02/gss_01/</guid>
+      <guid>http://localhost:1313/blog/2020/02/gss_01/</guid>
       <description>&lt;h2 id=&#34;course1-環境安裝&#34;&gt;Course1 環境安裝&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;安裝VS跟nuget，SSMS，跟公司的一些東西&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;course2-ms-sql語法練習&#34;&gt;Course2 MS-SQL語法練習&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;當初寫的時候，就按照學校考試的方式寫，完全沒考慮過效率或者可讀性。寫出來的結果也符合期待，不過實際上是不能這樣子的&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;以下分享各種坑&#34;&gt;以下分享各種坑&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;inner join / left join / right join沒有考慮，全部寫inner join，導致有SQL-Query查出來會有部分資料會遺失&#xA;&lt;ul&gt;&#xA;&lt;li&gt;各種JOIN的圖&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://i.stack.imgur.com/VQ5XP.png&#34;&gt;https://i.stack.imgur.com/VQ5XP.png&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;當時腦袋模糊不清&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;列出前五名的值???&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;當時天真的我就直接TOP(5)，發現同分的都沒列出&lt;/li&gt;&#xA;&lt;li&gt;解法就是With ties&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;列出一季當中的數量，當時用hardcode寫法&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;問題: 一季的規則變怎辦&lt;/li&gt;&#xA;&lt;li&gt;解法: 把規則放在TABLE，萬一規則變只要改表&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;會忘記規定，數字要三位一撇&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;解法: &lt;a href=&#34;https://harry-lin.blogspot.com/2018/12/mssql.html&#34;&gt;https://harry-lin.blogspot.com/2018/12/mssql.html&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>GSS_00</title>
-      <link>http://localhost:1313/2020/02/gss_00/</link>
+      <link>http://localhost:1313/blog/2020/02/gss_00/</link>
       <pubDate>Sun, 16 Feb 2020 23:23:15 +0000</pubDate>
-      <guid>http://localhost:1313/2020/02/gss_00/</guid>
+      <guid>http://localhost:1313/blog/2020/02/gss_00/</guid>
       <description>&lt;p&gt;&lt;strong&gt;實習系列文預告，將會有不定期更新&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;前情提要&#34;&gt;前情提要&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;因為先前課業繁忙，無法空出時間來打文章，之後有時間再補上一些心得文&lt;/li&gt;&#xA;&lt;li&gt;學校有引薦實習的機會，然後我就選了一家離家裡較近的公司&lt;/li&gt;&#xA;&lt;li&gt;正在整理新人訓期間的一些筆記，將來會做分享&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;實習地點&#34;&gt;實習地點&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;GSS叡揚資訊股份有限公司&#xA;&lt;ul&gt;&#xA;&lt;li&gt;10461台北市中山區德惠街9號&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.gss.com.tw/&#34;&gt;https://www.gss.com.tw/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;很像最近剛變成上市公司&lt;/p&gt;&lt;/blockquote&gt;</description>
     </item>
   </channel>

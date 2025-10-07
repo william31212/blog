@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>First on William&#39;s Blog</title>
-    <link>http://localhost:1313/tags/first/</link>
+    <link>http://localhost:1313/blog/tags/first/</link>
     <description>Recent content in First on William&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 22 Feb 2019 10:55:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/first/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/first/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My first post</title>
-      <link>http://localhost:1313/2019/02/my-first-post/</link>
+      <link>http://localhost:1313/blog/2019/02/my-first-post/</link>
       <pubDate>Fri, 22 Feb 2019 10:55:00 +0000</pubDate>
-      <guid>http://localhost:1313/2019/02/my-first-post/</guid>
+      <guid>http://localhost:1313/blog/2019/02/my-first-post/</guid>
       <description>&lt;h2 id=&#34;每天寫日記計畫正在進行中期待可以成功&#34;&gt;每天寫日記計畫正在進行中，期待可以成功&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;各位大家好，開了網站就寫吧&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
