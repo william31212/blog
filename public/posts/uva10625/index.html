@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+    <script type="application/ld+json">
+
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Uva10625 GNU = GNU'sNotUnix",
+  
+  "datePublished": "2019-08-14T14:52:19Z",
+  "dateModified": "2019-08-14T14:52:19Z",
+  "author": {
+    "@type": "Person",
+  "name":  null ,
+    
+  },
+  "mainEntityOfPage": { 
+    "@type": "WebPage",
+    "@id": "\/\/localhost:1313\/posts\/uva10625\/" 
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "",
+    
+  },
+  "description": " 寫題解讓自己可以review一次自己寫了甚麼\u0026hellip; 幾百年沒刷題，程式能力依然爛QQ\n題目 有一段字串需要照他的規定做轉換，例如例題的G就要換成GNU\u0026rsquo;s 給了原字串要問經過幾次轉換，他詢問的該個字母有幾個，最多轉換10000次 每個答案要間隔一個換行 解題思路\n因為題目只是將一個字母轉換成字串，因此我們只需要計算每個字母在每次轉換的總數有幾個，不需照著做轉換。 而題目有提到會出現的字元Ascii是從33~126之間，因此只要維護一個dp表格(我是直接開200) 用tmp紀錄字母在轉換時會增加多少個不同的字母數量，接著看上一層狀態該個字母有多少就乘以他的幾倍，紀錄到下一格狀態 如果紀錄每次狀態，陣列空間會太大，因此每次轉換過後，需要將結果狀態回灌給上一層，這樣只需要兩層的空間。 code\nhttps://github.com/william31212/uva/blob/master/uva10625/uva10625.cpp ",
+  "keywords": []
+}
+
+</script>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Hugo 0.150.1 with theme Tranquilpeak 0.5.3-BETA">
+<meta name="author" content="">
+<meta name="keywords" content="">
+<meta name="description" content="
+寫題解讓自己可以review一次自己寫了甚麼&hellip;
+幾百年沒刷題，程式能力依然爛QQ
+
+題目
+
+
+有一段字串需要照他的規定做轉換，例如例題的G就要換成GNU&rsquo;s
+給了原字串要問經過幾次轉換，他詢問的該個字母有幾個，最多轉換10000次
+每個答案要間隔一個換行
+
+
+
+解題思路
+
+因為題目只是將一個字母轉換成字串，因此我們只需要計算每個字母在每次轉換的總數有幾個，不需照著做轉換。
+而題目有提到會出現的字元Ascii是從33~126之間，因此只要維護一個dp表格(我是直接開200)
+用tmp紀錄字母在轉換時會增加多少個不同的字母數量，接著看上一層狀態該個字母有多少就乘以他的幾倍，紀錄到下一格狀態
+如果紀錄每次狀態，陣列空間會太大，因此每次轉換過後，需要將結果狀態回灌給上一層，這樣只需要兩層的空間。
+
+
+
+code
+
+https://github.com/william31212/uva/blob/master/uva10625/uva10625.cpp
+
+
+">
+
+
+<meta property="og:description" content="
+寫題解讓自己可以review一次自己寫了甚麼&hellip;
+幾百年沒刷題，程式能力依然爛QQ
+
+題目
+
+
+有一段字串需要照他的規定做轉換，例如例題的G就要換成GNU&rsquo;s
+給了原字串要問經過幾次轉換，他詢問的該個字母有幾個，最多轉換10000次
+每個答案要間隔一個換行
+
+
+
+解題思路
+
+因為題目只是將一個字母轉換成字串，因此我們只需要計算每個字母在每次轉換的總數有幾個，不需照著做轉換。
+而題目有提到會出現的字元Ascii是從33~126之間，因此只要維護一個dp表格(我是直接開200)
+用tmp紀錄字母在轉換時會增加多少個不同的字母數量，接著看上一層狀態該個字母有多少就乘以他的幾倍，紀錄到下一格狀態
+如果紀錄每次狀態，陣列空間會太大，因此每次轉換過後，需要將結果狀態回灌給上一層，這樣只需要兩層的空間。
+
+
+
+code
+
+https://github.com/william31212/uva/blob/master/uva10625/uva10625.cpp
+
+
+">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Uva10625 GNU = GNU&#39;sNotUnix">
+<meta name="twitter:title" content="Uva10625 GNU = GNU&#39;sNotUnix">
+<meta property="og:url" content="//localhost:1313/posts/uva10625/">
+<meta property="twitter:url" content="//localhost:1313/posts/uva10625/">
+<meta property="og:site_name" content="">
+<meta property="og:description" content="
+寫題解讓自己可以review一次自己寫了甚麼&hellip;
+幾百年沒刷題，程式能力依然爛QQ
+
+題目
+
+
+有一段字串需要照他的規定做轉換，例如例題的G就要換成GNU&rsquo;s
+給了原字串要問經過幾次轉換，他詢問的該個字母有幾個，最多轉換10000次
+每個答案要間隔一個換行
+
+
+
+解題思路
+
+因為題目只是將一個字母轉換成字串，因此我們只需要計算每個字母在每次轉換的總數有幾個，不需照著做轉換。
+而題目有提到會出現的字元Ascii是從33~126之間，因此只要維護一個dp表格(我是直接開200)
+用tmp紀錄字母在轉換時會增加多少個不同的字母數量，接著看上一層狀態該個字母有多少就乘以他的幾倍，紀錄到下一格狀態
+如果紀錄每次狀態，陣列空間會太大，因此每次轉換過後，需要將結果狀態回灌給上一層，這樣只需要兩層的空間。
+
+
+
+code
+
+https://github.com/william31212/uva/blob/master/uva10625/uva10625.cpp
+
+
+">
+<meta name="twitter:description" content="
+寫題解讓自己可以review一次自己寫了甚麼&hellip;
+幾百年沒刷題，程式能力依然爛QQ
+
+題目
+
+
+有一段字串需要照他的規定做轉換，例如例題的G就要換成GNU&rsquo;s
+給了原字串要問經過幾次轉換，他詢問的該個字母有幾個，最多轉換10000次
+每個答案要間隔一個換行
+
+
+
+解題思路
+
+因為題目只是將一個字母轉換成字串，因此我們只需要計算每個字母在每次轉換的總數有幾個，不需照著做轉換。
+而題目有提到會出現的字元Ascii是從33~126之間，因此只要維護一個dp表格(我是直接開200)
+用tmp紀錄字母在轉換時會增加多少個不同的字母數量，接著看上一層狀態該個字母有多少就乘以他的幾倍，紀錄到下一格狀態
+如果紀錄每次狀態，陣列空間會太大，因此每次轉換過後，需要將結果狀態回灌給上一層，這樣只需要兩層的空間。
+
+
+
+code
+
+https://github.com/william31212/uva/blob/master/uva10625/uva10625.cpp
+
+
+">
+<meta property="og:locale" content="en">
+
+  
+    <meta property="article:published_time" content="2019-08-14T14:52:19">
+  
+  
+    <meta property="article:modified_time" content="2019-08-14T14:52:19">
+  
+  
+  
+  
+    
+      <meta property="article:tag" content="uva">
+    
+      <meta property="article:tag" content="dp">
+    
+      <meta property="article:tag" content="string">
+    
+  
+
+
+<meta name="twitter:card" content="summary">
+
+
+
+
+
+
+
+
+
+
+
+
+    <title>Uva10625 GNU = GNU&#39;sNotUnix</title>
+
+    <link rel="icon" href="/favicon.png">
+    
+
+    
+
+    <link rel="canonical" href="//localhost:1313/posts/uva10625/">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    
+    
+    <link rel="stylesheet" href="//localhost:1313/css/style-h6ccsoet3mzkbb0wngshlfbaweimexgqcxj0h5hu4h82olsdzz6wmqdkajm.min.css" />
+    
+    
+
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="/" aria-label=""></a>
+  </div>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="">
+  <div class="sidebar-container">
+    
+    <ul class="sidebar-buttons">
+      
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+
+    </ul>
+  </div>
+</nav>
+
+      
+
+      <div id="main" data-behavior=""
+        class="
+               hasCoverMetaIn
+               ">
+        <article class="post" id="top">
+          
+          
+            <div class="post-header main-content-wrap text-left">
+  
+    <h1 class="post-title">
+      Uva10625 GNU = GNU&#39;sNotUnix
+    </h1>
+  
+  
+  <div class="postShorten-meta post-meta">
+    
+      <time datetime="2019-08-14T14:52:19Z">
+        
+   14, 2019
+
+      </time>
+    
+    
+  </div>
+
+</div>
+          
+          <div class="post-content markdown">
+            <div class="main-content-wrap">
+              <blockquote>
+<p>寫題解讓自己可以review一次自己寫了甚麼&hellip;
+幾百年沒刷題，程式能力依然爛QQ</p></blockquote>
+<ul>
+<li>題目</li>
+</ul>
+<ol>
+<li>有一段字串需要照他的規定做轉換，例如例題的G就要換成GNU&rsquo;s</li>
+<li>給了原字串要問經過幾次轉換，他詢問的該個字母有幾個，最多轉換10000次</li>
+<li>每個答案要間隔一個換行</li>
+</ol>
+<ul>
+<li>
+<p>解題思路</p>
+<ul>
+<li>因為題目只是將一個字母轉換成字串，因此我們只需要計算每個字母在每次轉換的總數有幾個，不需照著做轉換。</li>
+<li>而題目有提到會出現的字元Ascii是從33~126之間，因此只要維護一個dp表格(我是直接開200)</li>
+<li>用tmp紀錄字母在轉換時會增加多少個不同的字母數量，接著看上一層狀態該個字母有多少就乘以他的幾倍，紀錄到下一格狀態</li>
+<li>如果紀錄每次狀態，陣列空間會太大，因此每次轉換過後，需要將結果狀態回灌給上一層，這樣只需要兩層的空間。</li>
+</ul>
+</li>
+<li>
+<p>code</p>
+<ul>
+<li><a href="https://github.com/william31212/uva/blob/master/uva10625/uva10625.cpp">https://github.com/william31212/uva/blob/master/uva10625/uva10625.cpp</a></li>
+</ul>
+</li>
+</ul>
+
+              
+
+
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small"></span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="/tags/uva/">uva</a>
+
+  <a class="tag tag--primary tag--small" href="/tags/dp/">dp</a>
+
+  <a class="tag tag--primary tag--small" href="/tags/string/">string</a>
+
+                  </div>
+                
+              
+            
+            
+<div class="post-actions-wrap">
+  <nav >
+    <ul class="post-actions post-action-nav">
+      
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="/posts/uva825/" data-tooltip="Uva825 Walking on the Safe Side" aria-label=": Uva825 Walking on the Safe Side">
+          
+              <i class="fa fa-angle-left"></i>
+              <span class="hide-xs hide-sm text-small icon-ml"></span>
+            </a>
+        </li>
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="/posts/ais3-day7/" data-tooltip="Ais3-Day7" aria-label=": Ais3-Day7">
+          
+              <span class="hide-xs hide-sm text-small icon-mr"></span>
+              <i class="fa fa-angle-right"></i>
+            </a>
+        </li>
+      
+    </ul>
+  </nav>
+<ul class="post-actions post-action-share" >
+  
+    <li class="post-action hide-lg hide-md hide-sm">
+      <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions" aria-label="">
+        <i class="fa fa-share-alt" aria-hidden="true"></i>
+      </a>
+    </li>
+    
+  
+  
+  <li class="post-action">
+    
+      <a class="post-action-btn btn btn--default" href="#top" aria-label="">
+      <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    
+    </a>
+  </li>
+</ul>
+</div>
+
+
+            
+  
+
+
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+  &copy; 2025 . 
+  </span>
+</footer>
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="">
+        
+<div class="post-actions-wrap">
+  <nav >
+    <ul class="post-actions post-action-nav">
+      
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="/posts/uva825/" data-tooltip="Uva825 Walking on the Safe Side" aria-label=": Uva825 Walking on the Safe Side">
+          
+              <i class="fa fa-angle-left"></i>
+              <span class="hide-xs hide-sm text-small icon-ml"></span>
+            </a>
+        </li>
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="/posts/ais3-day7/" data-tooltip="Ais3-Day7" aria-label=": Ais3-Day7">
+          
+              <span class="hide-xs hide-sm text-small icon-mr"></span>
+              <i class="fa fa-angle-right"></i>
+            </a>
+        </li>
+      
+    </ul>
+  </nav>
+<ul class="post-actions post-action-share" >
+  
+    <li class="post-action hide-lg hide-md hide-sm">
+      <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions" aria-label="">
+        <i class="fa fa-share-alt" aria-hidden="true"></i>
+      </a>
+    </li>
+    
+  
+  
+  <li class="post-action">
+    
+      <a class="post-action-btn btn btn--default" href="#top" aria-label="">
+      <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    
+    </a>
+  </li>
+</ul>
+</div>
+
+
+      </div>
+      
+
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-times"></i>
+    </div>
+    
+  <h4 id="about-card-name"></h4>
+  
+  
+  
+  </div>
+</div>
+
+    
+
+    
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<script src="//localhost:1313/js/script-yqzy9wdlzix4lbbwdnzvwx3egsne77earqmn73v9uno8aupuph8wfguccut.min.js"></script>
+
+
+
+
+
+
+    
+  </body>
+</html>
+

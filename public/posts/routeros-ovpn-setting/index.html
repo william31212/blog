@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+    <script type="application/ld+json">
+
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "RouterOS-OVPN-Setting",
+  
+  "image": "https://i.mt.lv/cdn/rb_images/1471_hi_res.png",
+  
+  "datePublished": "2021-10-31T10:06:23Z",
+  "dateModified": "2021-10-31T10:06:23Z",
+  "author": {
+    "@type": "Person",
+  "name":  null ,
+    
+  },
+  "mainEntityOfPage": { 
+    "@type": "WebPage",
+    "@id": "\/\/localhost:1313\/posts\/routeros-ovpn-setting\/" 
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "",
+    
+  },
+  "description": "RouterOS 自架 OpenVPN\nRouterOS 自架 OpenVPN 型號 / 版本 Mitrotik hAP ac² / RouterOS v6.47.10 / $2730 TWD 因為有 VPN 需求，而從蝦皮購入此台 Router，此台有 AP 功能 產憑證 因為 OpenVPN 要求要有憑證才能連線，因此必須產憑證給它 透過 Openssl 自產憑證，餵給 RouterOS # 使用 RSA 演算法產生 2048 bit 長度私鑰 (ca.key) openssl genrsa -out ca.key 2048 # 簽發憑證 (ca.crt) openssl req -new -x509 -key ca.key -out ca.crt 餵憑證 開 Files，把 ca.crt跟 ca.key 匯入 開terminal，匯入到 System 中的 Cerificates\n這邊利用 cli 進行匯入， 因為用GUI的我一直失敗 /certificate import file-name=ca.crt # output passphrase: certificates-imported: 1 private-keys-imported: 0 files-imported: 1 decryption-failures: 0 keys-with-no-certificate: 0 /certificate import file-name=ca.key # output passphrase: certificates-imported: 0 private-keys-imported: 1 files-imported: 1 decryption-failures: 0 keys-with-no-certificate: 0 PPP 設定 OVPN Server ",
+  "keywords": []
+}
+
+</script>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Hugo 0.150.1 with theme Tranquilpeak 0.5.3-BETA">
+<meta name="author" content="">
+<meta name="keywords" content="">
+<meta name="description" content="RouterOS 自架 OpenVPN
+RouterOS 自架 OpenVPN
+型號 / 版本
+
+Mitrotik hAP ac² / RouterOS v6.47.10 / $2730 TWD
+因為有 VPN 需求，而從蝦皮購入此台 Router，此台有 AP 功能
+
+產憑證
+
+因為 OpenVPN 要求要有憑證才能連線，因此必須產憑證給它
+透過 Openssl 自產憑證，餵給 RouterOS
+
+# 使用 RSA 演算法產生 2048 bit 長度私鑰 (ca.key)
+openssl genrsa -out ca.key 2048
+# 簽發憑證 (ca.crt)
+openssl req -new -x509 -key ca.key -out ca.crt
+餵憑證
+
+
+開 Files，把 ca.crt跟 ca.key 匯入
+
+
+
+開terminal，匯入到 System 中的 Cerificates
+
+
+
+這邊利用 cli 進行匯入， 因為用GUI的我一直失敗
+
+/certificate import file-name=ca.crt
+# output
+passphrase: 
+    certificates-imported: 1
+    private-keys-imported: 0
+           files-imported: 1
+      decryption-failures: 0
+ keys-with-no-certificate: 0
+
+
+/certificate import file-name=ca.key
+# output
+passphrase: 
+    certificates-imported: 0
+    private-keys-imported: 1
+           files-imported: 1
+      decryption-failures: 0
+ keys-with-no-certificate: 0
+PPP 設定 OVPN Server
+">
+
+
+<meta property="og:description" content="RouterOS 自架 OpenVPN
+RouterOS 自架 OpenVPN
+型號 / 版本
+
+Mitrotik hAP ac² / RouterOS v6.47.10 / $2730 TWD
+因為有 VPN 需求，而從蝦皮購入此台 Router，此台有 AP 功能
+
+產憑證
+
+因為 OpenVPN 要求要有憑證才能連線，因此必須產憑證給它
+透過 Openssl 自產憑證，餵給 RouterOS
+
+# 使用 RSA 演算法產生 2048 bit 長度私鑰 (ca.key)
+openssl genrsa -out ca.key 2048
+# 簽發憑證 (ca.crt)
+openssl req -new -x509 -key ca.key -out ca.crt
+餵憑證
+
+
+開 Files，把 ca.crt跟 ca.key 匯入
+
+
+
+開terminal，匯入到 System 中的 Cerificates
+
+
+
+這邊利用 cli 進行匯入， 因為用GUI的我一直失敗
+
+/certificate import file-name=ca.crt
+# output
+passphrase: 
+    certificates-imported: 1
+    private-keys-imported: 0
+           files-imported: 1
+      decryption-failures: 0
+ keys-with-no-certificate: 0
+
+
+/certificate import file-name=ca.key
+# output
+passphrase: 
+    certificates-imported: 0
+    private-keys-imported: 1
+           files-imported: 1
+      decryption-failures: 0
+ keys-with-no-certificate: 0
+PPP 設定 OVPN Server
+">
+<meta property="og:type" content="article">
+<meta property="og:title" content="RouterOS-OVPN-Setting">
+<meta name="twitter:title" content="RouterOS-OVPN-Setting">
+<meta property="og:url" content="//localhost:1313/posts/routeros-ovpn-setting/">
+<meta property="twitter:url" content="//localhost:1313/posts/routeros-ovpn-setting/">
+<meta property="og:site_name" content="">
+<meta property="og:description" content="RouterOS 自架 OpenVPN
+RouterOS 自架 OpenVPN
+型號 / 版本
+
+Mitrotik hAP ac² / RouterOS v6.47.10 / $2730 TWD
+因為有 VPN 需求，而從蝦皮購入此台 Router，此台有 AP 功能
+
+產憑證
+
+因為 OpenVPN 要求要有憑證才能連線，因此必須產憑證給它
+透過 Openssl 自產憑證，餵給 RouterOS
+
+# 使用 RSA 演算法產生 2048 bit 長度私鑰 (ca.key)
+openssl genrsa -out ca.key 2048
+# 簽發憑證 (ca.crt)
+openssl req -new -x509 -key ca.key -out ca.crt
+餵憑證
+
+
+開 Files，把 ca.crt跟 ca.key 匯入
+
+
+
+開terminal，匯入到 System 中的 Cerificates
+
+
+
+這邊利用 cli 進行匯入， 因為用GUI的我一直失敗
+
+/certificate import file-name=ca.crt
+# output
+passphrase: 
+    certificates-imported: 1
+    private-keys-imported: 0
+           files-imported: 1
+      decryption-failures: 0
+ keys-with-no-certificate: 0
+
+
+/certificate import file-name=ca.key
+# output
+passphrase: 
+    certificates-imported: 0
+    private-keys-imported: 1
+           files-imported: 1
+      decryption-failures: 0
+ keys-with-no-certificate: 0
+PPP 設定 OVPN Server
+">
+<meta name="twitter:description" content="RouterOS 自架 OpenVPN
+RouterOS 自架 OpenVPN
+型號 / 版本
+
+Mitrotik hAP ac² / RouterOS v6.47.10 / $2730 TWD
+因為有 VPN 需求，而從蝦皮購入此台 Router，此台有 AP 功能
+
+產憑證
+
+因為 OpenVPN 要求要有憑證才能連線，因此必須產憑證給它
+透過 Openssl 自產憑證，餵給 RouterOS
+
+# 使用 RSA 演算法產生 2048 bit 長度私鑰 (ca.key)
+openssl genrsa -out ca.key 2048
+# 簽發憑證 (ca.crt)
+openssl req -new -x509 -key ca.key -out ca.crt
+餵憑證
+
+
+開 Files，把 ca.crt跟 ca.key 匯入
+
+
+
+開terminal，匯入到 System 中的 Cerificates
+
+
+
+這邊利用 cli 進行匯入， 因為用GUI的我一直失敗
+
+/certificate import file-name=ca.crt
+# output
+passphrase: 
+    certificates-imported: 1
+    private-keys-imported: 0
+           files-imported: 1
+      decryption-failures: 0
+ keys-with-no-certificate: 0
+
+
+/certificate import file-name=ca.key
+# output
+passphrase: 
+    certificates-imported: 0
+    private-keys-imported: 1
+           files-imported: 1
+      decryption-failures: 0
+ keys-with-no-certificate: 0
+PPP 設定 OVPN Server
+">
+<meta property="og:locale" content="en">
+
+  
+    <meta property="article:published_time" content="2021-10-31T10:06:23">
+  
+  
+    <meta property="article:modified_time" content="2021-10-31T10:06:23">
+  
+  
+  
+  
+    
+      <meta property="article:tag" content="RouterOS">
+    
+      <meta property="article:tag" content="Mitrotik">
+    
+      <meta property="article:tag" content="OpenVPN">
+    
+  
+
+
+<meta name="twitter:card" content="summary">
+
+
+
+
+
+
+
+
+
+
+
+  <meta property="og:image" content="https://i.mt.lv/cdn/rb_images/1471_hi_res.png">
+  <meta property="twitter:image" content="https://i.mt.lv/cdn/rb_images/1471_hi_res.png">
+
+
+    <title>RouterOS-OVPN-Setting</title>
+
+    <link rel="icon" href="/favicon.png">
+    
+
+    
+
+    <link rel="canonical" href="//localhost:1313/posts/routeros-ovpn-setting/">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    
+    
+    <link rel="stylesheet" href="//localhost:1313/css/style-h6ccsoet3mzkbb0wngshlfbaweimexgqcxj0h5hu4h82olsdzz6wmqdkajm.min.css" />
+    
+    
+
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="/" aria-label=""></a>
+  </div>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="">
+  <div class="sidebar-container">
+    
+    <ul class="sidebar-buttons">
+      
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+
+    </ul>
+  </div>
+</nav>
+
+      
+
+      <div id="main" data-behavior=""
+        class="
+               hasCoverMetaIn
+               ">
+        <article class="post" id="top">
+          
+          
+            <div class="post-header main-content-wrap text-left">
+  
+    <h1 class="post-title">
+      RouterOS-OVPN-Setting
+    </h1>
+  
+  
+  <div class="postShorten-meta post-meta">
+    
+      <time datetime="2021-10-31T10:06:23Z">
+        
+   31, 2021
+
+      </time>
+    
+    
+  </div>
+
+</div>
+          
+          <div class="post-content markdown">
+            <div class="main-content-wrap">
+              <p>RouterOS 自架 OpenVPN</p>
+<h1 id="routeros-自架-openvpn">RouterOS 自架 OpenVPN</h1>
+<h2 id="型號--版本">型號 / 版本</h2>
+<ul>
+<li>Mitrotik hAP ac² / RouterOS v6.47.10 / $2730 TWD</li>
+<li>因為有 VPN 需求，而從蝦皮購入此台 Router，此台有 AP 功能</li>
+</ul>
+<h2 id="產憑證">產憑證</h2>
+<ul>
+<li>因為 <code>OpenVPN</code> 要求要有憑證才能連線，因此必須產憑證給它</li>
+<li>透過 <code>Openssl</code> 自產憑證，餵給 <code>RouterOS</code></li>
+</ul>
+<pre tabindex="0"><code># 使用 RSA 演算法產生 2048 bit 長度私鑰 (ca.key)
+openssl genrsa -out ca.key 2048
+# 簽發憑證 (ca.crt)
+openssl req -new -x509 -key ca.key -out ca.crt
+</code></pre><h2 id="餵憑證">餵憑證</h2>
+<ul>
+<li>
+<p>開 Files，把 <code>ca.crt</code>跟 <code>ca.key</code> 匯入
+<img src="https://i.imgur.com/toiGhtV.png" alt="Upload"></p>
+</li>
+<li>
+<p>開terminal，匯入到 System 中的 Cerificates</p>
+</li>
+</ul>
+<blockquote>
+<p>這邊利用 cli 進行匯入， 因為用GUI的我一直失敗
+<img src="https://i.imgur.com/CNnXdQK.png" alt="Terminal"></p></blockquote>
+<pre tabindex="0"><code>/certificate import file-name=ca.crt
+# output
+passphrase: 
+    certificates-imported: 1
+    private-keys-imported: 0
+           files-imported: 1
+      decryption-failures: 0
+ keys-with-no-certificate: 0
+
+
+/certificate import file-name=ca.key
+# output
+passphrase: 
+    certificates-imported: 0
+    private-keys-imported: 1
+           files-imported: 1
+      decryption-failures: 0
+ keys-with-no-certificate: 0
+</code></pre><h2 id="ppp-設定-ovpn-server">PPP 設定 OVPN Server</h2>
+<p><img src="https://i.imgur.com/n5YWWSW.png" alt="Image"></p>
+<pre tabindex="0"><code># 設定一段ip段 10.10.0.1-10.10.0.254，準備給 VPN 發的時候使用
+/ip pool add name=ovpn_pool ranges=10.10.0.1-10.10.0.254
+
+# remote-address: OpenVPN 發給 Client 端的 IP
+# local-address: OpenVPN 連線後，在 Server端 的 IP
+# 在此筆者都是使用 ovpn_pool (10.10.0.1-10.10.0.254)
+/ppp profile add local-address=ovpn_pool name=ovpn remote-address=ovpn_pool
+
+# 設定 ovpn-server 的憑證
+/interface ovpn-server server set certificate=ca.crt_0 cipher=aes256 default-profile=ovpn enabled=yes netmask=16
+
+# 設定Client端的帳號密碼
+/ppp secret add name=&lt;VPN帳號設定&gt; password=&lt;VPN密碼設定&gt; profile=ovpn service=ovpn
+</code></pre><ul>
+<li>將 Require Client Certificate 取消，才能在不把key放在 <code>.ovpn</code> 進行連線</li>
+</ul>
+<p><img src="https://i.imgur.com/54cr8jA.png" alt="Image"></p>
+<h2 id="client-端設定">Client 端設定</h2>
+<ul>
+<li>
+<p>自行寫設定檔，副檔名請使用<code>.ovpn</code>結尾</p>
+</li>
+<li>
+<p>以下為設定檔範例，<code>&lt;&gt;</code>為抽換的位置</p>
+</li>
+</ul>
+<pre tabindex="0"><code>client
+dev tun
+proto tcp
+remote &lt;VPN外部IP&gt; &lt;VPN外部Port&gt;
+auth-user-pass
+auth SHA1
+cipher AES-256-CBC
+verb 5
+redirect-gateway def1
+dhcp-option DNS 1.1.1.1
+auth-user-pass
+
+&lt;ca&gt;
+-----BEGIN CERTIFICATE-----
+&lt;將ca.crt內容複製到這裡&gt;
+-----END CERTIFICATE-----
+&lt;/ca&gt;
+</code></pre><blockquote>
+<p>參考自: <a href="https://blog.ladsai.com/routeros-openvpn-server-client-%E8%A8%AD%E5%AE%9A.html">https://blog.ladsai.com/routeros-openvpn-server-client-%E8%A8%AD%E5%AE%9A.html</a></p></blockquote>
+
+              
+
+
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small"></span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="/tags/routeros/">RouterOS</a>
+
+  <a class="tag tag--primary tag--small" href="/tags/mitrotik/">Mitrotik</a>
+
+  <a class="tag tag--primary tag--small" href="/tags/openvpn/">OpenVPN</a>
+
+                  </div>
+                
+              
+            
+            
+<div class="post-actions-wrap">
+  <nav >
+    <ul class="post-actions post-action-nav">
+      
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--disabled">
+          
+              <i class="fa fa-angle-left"></i>
+              <span class="hide-xs hide-sm text-small icon-ml"></span>
+            </a>
+        </li>
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="/posts/2020%E6%A6%AE%E8%80%80%E8%B3%87%E6%88%B0/" data-tooltip="2020_榮耀資戰" aria-label=": 2020_榮耀資戰">
+          
+              <span class="hide-xs hide-sm text-small icon-mr"></span>
+              <i class="fa fa-angle-right"></i>
+            </a>
+        </li>
+      
+    </ul>
+  </nav>
+<ul class="post-actions post-action-share" >
+  
+    <li class="post-action hide-lg hide-md hide-sm">
+      <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions" aria-label="">
+        <i class="fa fa-share-alt" aria-hidden="true"></i>
+      </a>
+    </li>
+    
+  
+  
+  <li class="post-action">
+    
+      <a class="post-action-btn btn btn--default" href="#top" aria-label="">
+      <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    
+    </a>
+  </li>
+</ul>
+</div>
+
+
+            
+  
+
+
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+  &copy; 2025 . 
+  </span>
+</footer>
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="">
+        
+<div class="post-actions-wrap">
+  <nav >
+    <ul class="post-actions post-action-nav">
+      
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--disabled">
+          
+              <i class="fa fa-angle-left"></i>
+              <span class="hide-xs hide-sm text-small icon-ml"></span>
+            </a>
+        </li>
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="/posts/2020%E6%A6%AE%E8%80%80%E8%B3%87%E6%88%B0/" data-tooltip="2020_榮耀資戰" aria-label=": 2020_榮耀資戰">
+          
+              <span class="hide-xs hide-sm text-small icon-mr"></span>
+              <i class="fa fa-angle-right"></i>
+            </a>
+        </li>
+      
+    </ul>
+  </nav>
+<ul class="post-actions post-action-share" >
+  
+    <li class="post-action hide-lg hide-md hide-sm">
+      <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions" aria-label="">
+        <i class="fa fa-share-alt" aria-hidden="true"></i>
+      </a>
+    </li>
+    
+  
+  
+  <li class="post-action">
+    
+      <a class="post-action-btn btn btn--default" href="#top" aria-label="">
+      <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    
+    </a>
+  </li>
+</ul>
+</div>
+
+
+      </div>
+      
+
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-times"></i>
+    </div>
+    
+  <h4 id="about-card-name"></h4>
+  
+  
+  
+  </div>
+</div>
+
+    
+
+    
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<script src="//localhost:1313/js/script-yqzy9wdlzix4lbbwdnzvwx3egsne77earqmn73v9uno8aupuph8wfguccut.min.js"></script>
+
+
+
+
+
+
+    
+  </body>
+</html>
+

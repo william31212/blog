@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+    <script type="application/ld+json">
+
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Ais3-Day6",
+  
+  "datePublished": "2019-08-10T19:53:04Z",
+  "dateModified": "2019-08-10T19:53:04Z",
+  "author": {
+    "@type": "Person",
+  "name":  null ,
+    
+  },
+  "mainEntityOfPage": { 
+    "@type": "WebPage",
+    "@id": "\/\/localhost:1313\/posts\/ais3-day6\/" 
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "",
+    
+  },
+  "description": "AIS3系列文 報告第一天 早上是web組的報告，整個印象最深刻的就是開挖0-day的那個部分，讓評審只有說「做得很好」，從流程到實作都講解得相當清楚，也有成功回報，真的讓我嘆為觀止。還有組別是製作更好用的hackbar，真的感覺比原本的hackbar好用，而且還不用license。另外區塊鍊的部分，我是完全沒有聽懂，因為基礎知識趨近於零，不過這也促使我去了解我不擅長之領域，另外是活動結束後有創粉專的breach.tw，台灣抓漏小天使，這是國外ihavebeenpwn的理念，參考之後做了一個台灣版本的，目前持續有在維護中。\n下午的部分是軟體安全組的同學，我就只把我比較有印象的組別列出，記得一組是報告關於SDN的技術，然後有做自己的延伸，有大概理解他們整個架構，不過實作上面有點茫。有一組則是做生物學識別，透過使用者輸入密碼的習慣，來驗證你的輸入的帳號密碼是否有效，密碼長度越長則效果越好，覺得這個專題發想還不錯。下午下半場則是國家安全的組別報告，看到蠻多都有跟時事結合的技術，像是把某個政治人物打馬，做出自己的過濾系統這樣，覺得學以致用這個詞用在他們身上真的不為過。\n晚上是逆向工程的組別報告，我只看到一大堆人做一大堆boot loader，聽到最後有點疲乏，因為他們的題目有先規定好要做甚麼。基本上又是我補投影片的時機了。回去宿舍後，我的team約在一樓交誼廳，接著就是開始彩排，順過整個流程以及計時，第一次直接超過時間，於是做出了很多調整，最後很像沒有順第二次我們就各自回房。\n住宿 看到有一半的人已經報告結束了，然後我們在做投影片 這天真的是整個禮拜最累的一天，不斷的順整個報告流程，調整報告節奏，不過應該是我最有收穫的一個晚上 睡覺前chill一點，不然真的睡不著。 感謝我的室友carry 食物 早餐49 似乎是便利商店 午餐99 我到底吃了甚麼??? 飲料10 飲料機 晚餐85+20 吃麻辣臭豆腐，辣到我流汗，配知名乳酸飲料 圖片 凌晨12點被關燈，於是拿著手機手電筒度過，聽著spotify讓我逃離高壓情緒 詳情可以看我IG精選動態 隔天報告覺得烙烙的\n",
+  "keywords": []
+}
+
+</script>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Hugo 0.150.1 with theme Tranquilpeak 0.5.3-BETA">
+<meta name="author" content="">
+<meta name="keywords" content="">
+<meta name="description" content="AIS3系列文
+報告第一天
+
+
+早上是web組的報告，整個印象最深刻的就是開挖0-day的那個部分，讓評審只有說「做得很好」，從流程到實作都講解得相當清楚，也有成功回報，真的讓我嘆為觀止。還有組別是製作更好用的hackbar，真的感覺比原本的hackbar好用，而且還不用license。另外區塊鍊的部分，我是完全沒有聽懂，因為基礎知識趨近於零，不過這也促使我去了解我不擅長之領域，另外是活動結束後有創粉專的breach.tw，台灣抓漏小天使，這是國外ihavebeenpwn的理念，參考之後做了一個台灣版本的，目前持續有在維護中。
+
+
+下午的部分是軟體安全組的同學，我就只把我比較有印象的組別列出，記得一組是報告關於SDN的技術，然後有做自己的延伸，有大概理解他們整個架構，不過實作上面有點茫。有一組則是做生物學識別，透過使用者輸入密碼的習慣，來驗證你的輸入的帳號密碼是否有效，密碼長度越長則效果越好，覺得這個專題發想還不錯。下午下半場則是國家安全的組別報告，看到蠻多都有跟時事結合的技術，像是把某個政治人物打馬，做出自己的過濾系統這樣，覺得學以致用這個詞用在他們身上真的不為過。
+
+
+晚上是逆向工程的組別報告，我只看到一大堆人做一大堆boot loader，聽到最後有點疲乏，因為他們的題目有先規定好要做甚麼。基本上又是我補投影片的時機了。回去宿舍後，我的team約在一樓交誼廳，接著就是開始彩排，順過整個流程以及計時，第一次直接超過時間，於是做出了很多調整，最後很像沒有順第二次我們就各自回房。
+
+
+住宿
+
+看到有一半的人已經報告結束了，然後我們在做投影片
+這天真的是整個禮拜最累的一天，不斷的順整個報告流程，調整報告節奏，不過應該是我最有收穫的一個晚上
+睡覺前chill一點，不然真的睡不著。
+感謝我的室友carry
+
+食物
+
+早餐49
+
+似乎是便利商店
+
+
+午餐99
+
+我到底吃了甚麼???
+
+
+飲料10
+
+飲料機
+
+
+晚餐85&#43;20
+
+吃麻辣臭豆腐，辣到我流汗，配知名乳酸飲料
+
+
+
+圖片
+
+凌晨12點被關燈，於是拿著手機手電筒度過，聽著spotify讓我逃離高壓情緒
+
+
+
+詳情可以看我IG精選動態
+隔天報告覺得烙烙的">
+
+
+<meta property="og:description" content="AIS3系列文
+報告第一天
+
+
+早上是web組的報告，整個印象最深刻的就是開挖0-day的那個部分，讓評審只有說「做得很好」，從流程到實作都講解得相當清楚，也有成功回報，真的讓我嘆為觀止。還有組別是製作更好用的hackbar，真的感覺比原本的hackbar好用，而且還不用license。另外區塊鍊的部分，我是完全沒有聽懂，因為基礎知識趨近於零，不過這也促使我去了解我不擅長之領域，另外是活動結束後有創粉專的breach.tw，台灣抓漏小天使，這是國外ihavebeenpwn的理念，參考之後做了一個台灣版本的，目前持續有在維護中。
+
+
+下午的部分是軟體安全組的同學，我就只把我比較有印象的組別列出，記得一組是報告關於SDN的技術，然後有做自己的延伸，有大概理解他們整個架構，不過實作上面有點茫。有一組則是做生物學識別，透過使用者輸入密碼的習慣，來驗證你的輸入的帳號密碼是否有效，密碼長度越長則效果越好，覺得這個專題發想還不錯。下午下半場則是國家安全的組別報告，看到蠻多都有跟時事結合的技術，像是把某個政治人物打馬，做出自己的過濾系統這樣，覺得學以致用這個詞用在他們身上真的不為過。
+
+
+晚上是逆向工程的組別報告，我只看到一大堆人做一大堆boot loader，聽到最後有點疲乏，因為他們的題目有先規定好要做甚麼。基本上又是我補投影片的時機了。回去宿舍後，我的team約在一樓交誼廳，接著就是開始彩排，順過整個流程以及計時，第一次直接超過時間，於是做出了很多調整，最後很像沒有順第二次我們就各自回房。
+
+
+住宿
+
+看到有一半的人已經報告結束了，然後我們在做投影片
+這天真的是整個禮拜最累的一天，不斷的順整個報告流程，調整報告節奏，不過應該是我最有收穫的一個晚上
+睡覺前chill一點，不然真的睡不著。
+感謝我的室友carry
+
+食物
+
+早餐49
+
+似乎是便利商店
+
+
+午餐99
+
+我到底吃了甚麼???
+
+
+飲料10
+
+飲料機
+
+
+晚餐85&#43;20
+
+吃麻辣臭豆腐，辣到我流汗，配知名乳酸飲料
+
+
+
+圖片
+
+凌晨12點被關燈，於是拿著手機手電筒度過，聽著spotify讓我逃離高壓情緒
+
+
+
+詳情可以看我IG精選動態
+隔天報告覺得烙烙的">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Ais3-Day6">
+<meta name="twitter:title" content="Ais3-Day6">
+<meta property="og:url" content="//localhost:1313/posts/ais3-day6/">
+<meta property="twitter:url" content="//localhost:1313/posts/ais3-day6/">
+<meta property="og:site_name" content="">
+<meta property="og:description" content="AIS3系列文
+報告第一天
+
+
+早上是web組的報告，整個印象最深刻的就是開挖0-day的那個部分，讓評審只有說「做得很好」，從流程到實作都講解得相當清楚，也有成功回報，真的讓我嘆為觀止。還有組別是製作更好用的hackbar，真的感覺比原本的hackbar好用，而且還不用license。另外區塊鍊的部分，我是完全沒有聽懂，因為基礎知識趨近於零，不過這也促使我去了解我不擅長之領域，另外是活動結束後有創粉專的breach.tw，台灣抓漏小天使，這是國外ihavebeenpwn的理念，參考之後做了一個台灣版本的，目前持續有在維護中。
+
+
+下午的部分是軟體安全組的同學，我就只把我比較有印象的組別列出，記得一組是報告關於SDN的技術，然後有做自己的延伸，有大概理解他們整個架構，不過實作上面有點茫。有一組則是做生物學識別，透過使用者輸入密碼的習慣，來驗證你的輸入的帳號密碼是否有效，密碼長度越長則效果越好，覺得這個專題發想還不錯。下午下半場則是國家安全的組別報告，看到蠻多都有跟時事結合的技術，像是把某個政治人物打馬，做出自己的過濾系統這樣，覺得學以致用這個詞用在他們身上真的不為過。
+
+
+晚上是逆向工程的組別報告，我只看到一大堆人做一大堆boot loader，聽到最後有點疲乏，因為他們的題目有先規定好要做甚麼。基本上又是我補投影片的時機了。回去宿舍後，我的team約在一樓交誼廳，接著就是開始彩排，順過整個流程以及計時，第一次直接超過時間，於是做出了很多調整，最後很像沒有順第二次我們就各自回房。
+
+
+住宿
+
+看到有一半的人已經報告結束了，然後我們在做投影片
+這天真的是整個禮拜最累的一天，不斷的順整個報告流程，調整報告節奏，不過應該是我最有收穫的一個晚上
+睡覺前chill一點，不然真的睡不著。
+感謝我的室友carry
+
+食物
+
+早餐49
+
+似乎是便利商店
+
+
+午餐99
+
+我到底吃了甚麼???
+
+
+飲料10
+
+飲料機
+
+
+晚餐85&#43;20
+
+吃麻辣臭豆腐，辣到我流汗，配知名乳酸飲料
+
+
+
+圖片
+
+凌晨12點被關燈，於是拿著手機手電筒度過，聽著spotify讓我逃離高壓情緒
+
+
+
+詳情可以看我IG精選動態
+隔天報告覺得烙烙的">
+<meta name="twitter:description" content="AIS3系列文
+報告第一天
+
+
+早上是web組的報告，整個印象最深刻的就是開挖0-day的那個部分，讓評審只有說「做得很好」，從流程到實作都講解得相當清楚，也有成功回報，真的讓我嘆為觀止。還有組別是製作更好用的hackbar，真的感覺比原本的hackbar好用，而且還不用license。另外區塊鍊的部分，我是完全沒有聽懂，因為基礎知識趨近於零，不過這也促使我去了解我不擅長之領域，另外是活動結束後有創粉專的breach.tw，台灣抓漏小天使，這是國外ihavebeenpwn的理念，參考之後做了一個台灣版本的，目前持續有在維護中。
+
+
+下午的部分是軟體安全組的同學，我就只把我比較有印象的組別列出，記得一組是報告關於SDN的技術，然後有做自己的延伸，有大概理解他們整個架構，不過實作上面有點茫。有一組則是做生物學識別，透過使用者輸入密碼的習慣，來驗證你的輸入的帳號密碼是否有效，密碼長度越長則效果越好，覺得這個專題發想還不錯。下午下半場則是國家安全的組別報告，看到蠻多都有跟時事結合的技術，像是把某個政治人物打馬，做出自己的過濾系統這樣，覺得學以致用這個詞用在他們身上真的不為過。
+
+
+晚上是逆向工程的組別報告，我只看到一大堆人做一大堆boot loader，聽到最後有點疲乏，因為他們的題目有先規定好要做甚麼。基本上又是我補投影片的時機了。回去宿舍後，我的team約在一樓交誼廳，接著就是開始彩排，順過整個流程以及計時，第一次直接超過時間，於是做出了很多調整，最後很像沒有順第二次我們就各自回房。
+
+
+住宿
+
+看到有一半的人已經報告結束了，然後我們在做投影片
+這天真的是整個禮拜最累的一天，不斷的順整個報告流程，調整報告節奏，不過應該是我最有收穫的一個晚上
+睡覺前chill一點，不然真的睡不著。
+感謝我的室友carry
+
+食物
+
+早餐49
+
+似乎是便利商店
+
+
+午餐99
+
+我到底吃了甚麼???
+
+
+飲料10
+
+飲料機
+
+
+晚餐85&#43;20
+
+吃麻辣臭豆腐，辣到我流汗，配知名乳酸飲料
+
+
+
+圖片
+
+凌晨12點被關燈，於是拿著手機手電筒度過，聽著spotify讓我逃離高壓情緒
+
+
+
+詳情可以看我IG精選動態
+隔天報告覺得烙烙的">
+<meta property="og:locale" content="en">
+
+  
+    <meta property="article:published_time" content="2019-08-10T19:53:04">
+  
+  
+    <meta property="article:modified_time" content="2019-08-10T19:53:04">
+  
+  
+  
+  
+    
+      <meta property="article:tag" content="ais3">
+    
+  
+
+
+<meta name="twitter:card" content="summary">
+
+
+
+
+
+
+
+
+
+
+
+
+    <title>Ais3-Day6</title>
+
+    <link rel="icon" href="/favicon.png">
+    
+
+    
+
+    <link rel="canonical" href="//localhost:1313/posts/ais3-day6/">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    
+    
+    <link rel="stylesheet" href="//localhost:1313/css/style-h6ccsoet3mzkbb0wngshlfbaweimexgqcxj0h5hu4h82olsdzz6wmqdkajm.min.css" />
+    
+    
+
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="/" aria-label=""></a>
+  </div>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="">
+  <div class="sidebar-container">
+    
+    <ul class="sidebar-buttons">
+      
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+
+    </ul>
+  </div>
+</nav>
+
+      
+
+      <div id="main" data-behavior=""
+        class="
+               hasCoverMetaIn
+               ">
+        <article class="post" id="top">
+          
+          
+            <div class="post-header main-content-wrap text-left">
+  
+    <h1 class="post-title">
+      Ais3-Day6
+    </h1>
+  
+  
+  <div class="postShorten-meta post-meta">
+    
+      <time datetime="2019-08-10T19:53:04Z">
+        
+   10, 2019
+
+      </time>
+    
+    
+  </div>
+
+</div>
+          
+          <div class="post-content markdown">
+            <div class="main-content-wrap">
+              <h1 id="ais3系列文">AIS3系列文</h1>
+<h2 id="報告第一天">報告第一天</h2>
+<ul>
+<li>
+<p>早上是web組的報告，整個印象最深刻的就是開挖0-day的那個部分，讓評審只有說「做得很好」，從流程到實作都講解得相當清楚，也有成功回報，真的讓我嘆為觀止。還有組別是製作更好用的hackbar，真的感覺比原本的hackbar好用，而且還不用license。另外區塊鍊的部分，我是完全沒有聽懂，因為基礎知識趨近於零，不過這也促使我去了解我不擅長之領域，另外是活動結束後有創粉專的breach.tw，台灣抓漏小天使，這是國外ihavebeenpwn的理念，參考之後做了一個台灣版本的，目前持續有在維護中。</p>
+</li>
+<li>
+<p>下午的部分是軟體安全組的同學，我就只把我比較有印象的組別列出，記得一組是報告關於SDN的技術，然後有做自己的延伸，有大概理解他們整個架構，不過實作上面有點茫。有一組則是做生物學識別，透過使用者輸入密碼的習慣，來驗證你的輸入的帳號密碼是否有效，密碼長度越長則效果越好，覺得這個專題發想還不錯。下午下半場則是國家安全的組別報告，看到蠻多都有跟時事結合的技術，像是把某個政治人物打馬，做出自己的過濾系統這樣，覺得學以致用這個詞用在他們身上真的不為過。</p>
+</li>
+<li>
+<p>晚上是逆向工程的組別報告，我只看到一大堆人做一大堆boot loader，聽到最後有點疲乏，因為他們的題目有先規定好要做甚麼。基本上又是我補投影片的時機了。回去宿舍後，我的team約在一樓交誼廳，接著就是開始彩排，順過整個流程以及計時，第一次直接超過時間，於是做出了很多調整，最後很像沒有順第二次我們就各自回房。</p>
+</li>
+</ul>
+<h2 id="住宿">住宿</h2>
+<ul>
+<li>看到有一半的人已經報告結束了，然後我們在做投影片</li>
+<li>這天真的是整個禮拜最累的一天，不斷的順整個報告流程，調整報告節奏，不過應該是我最有收穫的一個晚上</li>
+<li>睡覺前chill一點，不然真的睡不著。</li>
+<li>感謝我的室友carry</li>
+</ul>
+<h2 id="食物">食物</h2>
+<ul>
+<li>早餐49
+<ul>
+<li>似乎是便利商店</li>
+</ul>
+</li>
+<li>午餐99
+<ul>
+<li>我到底吃了甚麼???</li>
+</ul>
+</li>
+<li>飲料10
+<ul>
+<li>飲料機</li>
+</ul>
+</li>
+<li>晚餐85+20
+<ul>
+<li>吃麻辣臭豆腐，辣到我流汗，配知名乳酸飲料</li>
+</ul>
+</li>
+</ul>
+<h2 id="圖片">圖片</h2>
+<ul>
+<li>凌晨12點被關燈，於是拿著手機手電筒度過，聽著spotify讓我逃離高壓情緒</li>
+</ul>
+<!-- raw HTML omitted -->
+<blockquote>
+<p>詳情可以看我IG精選動態
+隔天報告覺得烙烙的</p></blockquote>
+
+              
+
+
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small"></span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="/tags/ais3/">ais3</a>
+
+                  </div>
+                
+              
+            
+            
+<div class="post-actions-wrap">
+  <nav >
+    <ul class="post-actions post-action-nav">
+      
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="/posts/ais3-day7/" data-tooltip="Ais3-Day7" aria-label=": Ais3-Day7">
+          
+              <i class="fa fa-angle-left"></i>
+              <span class="hide-xs hide-sm text-small icon-ml"></span>
+            </a>
+        </li>
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="/posts/ais3-day5/" data-tooltip="Ais3-Day5" aria-label=": Ais3-Day5">
+          
+              <span class="hide-xs hide-sm text-small icon-mr"></span>
+              <i class="fa fa-angle-right"></i>
+            </a>
+        </li>
+      
+    </ul>
+  </nav>
+<ul class="post-actions post-action-share" >
+  
+    <li class="post-action hide-lg hide-md hide-sm">
+      <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions" aria-label="">
+        <i class="fa fa-share-alt" aria-hidden="true"></i>
+      </a>
+    </li>
+    
+  
+  
+  <li class="post-action">
+    
+      <a class="post-action-btn btn btn--default" href="#top" aria-label="">
+      <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    
+    </a>
+  </li>
+</ul>
+</div>
+
+
+            
+  
+
+
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+  &copy; 2025 . 
+  </span>
+</footer>
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="">
+        
+<div class="post-actions-wrap">
+  <nav >
+    <ul class="post-actions post-action-nav">
+      
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="/posts/ais3-day7/" data-tooltip="Ais3-Day7" aria-label=": Ais3-Day7">
+          
+              <i class="fa fa-angle-left"></i>
+              <span class="hide-xs hide-sm text-small icon-ml"></span>
+            </a>
+        </li>
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="/posts/ais3-day5/" data-tooltip="Ais3-Day5" aria-label=": Ais3-Day5">
+          
+              <span class="hide-xs hide-sm text-small icon-mr"></span>
+              <i class="fa fa-angle-right"></i>
+            </a>
+        </li>
+      
+    </ul>
+  </nav>
+<ul class="post-actions post-action-share" >
+  
+    <li class="post-action hide-lg hide-md hide-sm">
+      <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions" aria-label="">
+        <i class="fa fa-share-alt" aria-hidden="true"></i>
+      </a>
+    </li>
+    
+  
+  
+  <li class="post-action">
+    
+      <a class="post-action-btn btn btn--default" href="#top" aria-label="">
+      <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    
+    </a>
+  </li>
+</ul>
+</div>
+
+
+      </div>
+      
+
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-times"></i>
+    </div>
+    
+  <h4 id="about-card-name"></h4>
+  
+  
+  
+  </div>
+</div>
+
+    
+
+    
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<script src="//localhost:1313/js/script-yqzy9wdlzix4lbbwdnzvwx3egsne77earqmn73v9uno8aupuph8wfguccut.min.js"></script>
+
+
+
+
+
+
+    
+  </body>
+</html>
+
