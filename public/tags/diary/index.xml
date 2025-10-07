@@ -2,199 +2,199 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Diary on William&#39;s Blog</title>
-    <link>http://localhost:1313/blog/tags/diary/</link>
+    <link>http://localhost:1313/tags/diary/</link>
     <description>Recent content in Diary on William&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 13 Jul 2019 09:34:36 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/diary/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/diary/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Diary27</title>
-      <link>http://localhost:1313/blog/2019/07/diary27/</link>
+      <link>http://localhost:1313/2019/07/diary27/</link>
       <pubDate>Sat, 13 Jul 2019 09:34:36 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2019/07/diary27/</guid>
+      <guid>http://localhost:1313/2019/07/diary27/</guid>
       <description>&lt;h2 id=&#34;復活聲明&#34;&gt;復活聲明&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;很明顯天天寫日記的計畫已失敗，也大概三四個月沒更新了，課業繁忙到不想打日記了，終於要來更新了。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;活動&#34;&gt;活動&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;目前已完成NCPU，之後會補上近日心得。&lt;/li&gt;&#xA;&lt;li&gt;之前AIS3的writeup以補上&lt;/li&gt;&#xA;&lt;li&gt;歡迎來光顧我與同隊的同胞做的專案&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://rish.com.tw/&#34;&gt;rish&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;一些心得&#34;&gt;一些心得&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;差不多放了兩個禮拜的暑假了，前陣子都在期末考周，幾乎天天都留在學校念書，再前一陣子也在忙專案的一些事情，這學期真的累到不行。放完暑假後，沒什麼力氣打code，也給自己放空了很久，然後才想到我的網站都毫無更新QQ。&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Diary26</title>
-      <link>http://localhost:1313/blog/2019/04/diary26/</link>
+      <link>http://localhost:1313/2019/04/diary26/</link>
       <pubDate>Mon, 22 Apr 2019 23:29:29 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2019/04/diary26/</guid>
+      <guid>http://localhost:1313/2019/04/diary26/</guid>
       <description>&lt;h2 id=&#34;今日課程&#34;&gt;今日課程&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;微分方程&lt;/li&gt;&#xA;&lt;li&gt;web&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今日體驗&#34;&gt;今日體驗&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;上禮拜期中考周，就沒有天天更新了QQ。拿到了成績也警惕自己要天天算題目，一直忙於其他東西疏忽了練習，讓我這次考的沒有很好。web的PWA也是蠻茫的，又是陷入了低潮時期。不過考完試三天就把與惡看完真的頗爽的，雖然現在相當空虛。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今日做到的事情&#34;&gt;今日做到的事情&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 微分方程&lt;/li&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 心靈休息&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Diary25</title>
-      <link>http://localhost:1313/blog/2019/04/diary25/</link>
+      <link>http://localhost:1313/2019/04/diary25/</link>
       <pubDate>Wed, 10 Apr 2019 21:39:22 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2019/04/diary25/</guid>
+      <guid>http://localhost:1313/2019/04/diary25/</guid>
       <description>&lt;h2 id=&#34;今日課程&#34;&gt;今日課程&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;作業系統&lt;/li&gt;&#xA;&lt;li&gt;Pygame&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今日體驗&#34;&gt;今日體驗&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;我覺得作業系統跟泛型應該是我最難捉摸的，有很大部分都還蠻茫的。不過日子要過，笑得過也是一天，還是笑著過生活好。今天是Pygame展出的日子，工時長達一個月左右，雖然我的code寫得真的糞到笑，但我真的很努力在吸收了。展出也蠻順利的，雖然我打了30場以上自己的遊戲，打到手都痛了。晚上自辦賽只寫了一題，另外那題讀不太懂意思，然後找到的規律很像也有問題，是不是有危機了呢?&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;pygame-rifleman-分享&#34;&gt;Pygame-Rifleman 分享&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/william31212/Pygame&#34;&gt;https://github.com/william31212/Pygame&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;今日做到的事情&#34;&gt;今日做到的事情&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 順利展出&lt;/li&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 心靈休息&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Diary24</title>
-      <link>http://localhost:1313/blog/2019/04/diary24/</link>
+      <link>http://localhost:1313/2019/04/diary24/</link>
       <pubDate>Tue, 09 Apr 2019 22:07:25 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2019/04/diary24/</guid>
+      <guid>http://localhost:1313/2019/04/diary24/</guid>
       <description>&lt;h2 id=&#34;今日課程&#34;&gt;今日課程&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;泛型&lt;/li&gt;&#xA;&lt;li&gt;防身術&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今日體驗&#34;&gt;今日體驗&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;泛型是不是要GG惹，有一大堆東西都還沒有熟，有想退選的念頭。防身術也是下星期期中考，不過覺得蠻好玩的，比起其他科還有和藹可親許多。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今日做到的事情&#34;&gt;今日做到的事情&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 演算法&lt;/li&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 計組Booth&amp;rsquo;s algorithm&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Diary23</title>
-      <link>http://localhost:1313/blog/2019/04/diary23/</link>
+      <link>http://localhost:1313/2019/04/diary23/</link>
       <pubDate>Mon, 08 Apr 2019 23:20:57 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2019/04/diary23/</guid>
+      <guid>http://localhost:1313/2019/04/diary23/</guid>
       <description>&lt;h3 id=&#34;九天都沒更新有點混xd&#34;&gt;九天都沒更新，有點混XD&lt;/h3&gt;&#xA;&lt;h2 id=&#34;今日課程&#34;&gt;今日課程&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;工數&lt;/li&gt;&#xA;&lt;li&gt;web&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;九天分享&#34;&gt;九天分享&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;一次放就放了9天，結果時間也過得很快，中間也沒念到甚麼書，然後投資蠻多時間在Pygame上面，還記得第一天去比賽，然後就幾乎都在家，清明連假有去掃墓這樣。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今日體驗&#34;&gt;今日體驗&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;放了九天的腦袋真的不是普通的爛，腦袋有點混沌，然後老師今天都沒出錯，所以加零分。下午web有小考，考的都跟考古一樣，很像有講到JQuery的東西ㄅ，不過沒什麼專心聽。覺得現在在還債，都沒唸書的下場QQQ&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今日做到的事情&#34;&gt;今日做到的事情&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 念演算法&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Diary22</title>
-      <link>http://localhost:1313/blog/2019/03/diary22/</link>
+      <link>http://localhost:1313/2019/03/diary22/</link>
       <pubDate>Fri, 29 Mar 2019 18:08:12 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2019/03/diary22/</guid>
+      <guid>http://localhost:1313/2019/03/diary22/</guid>
       <description>&lt;h2 id=&#34;今日課程&#34;&gt;今日課程&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;演算法&lt;/li&gt;&#xA;&lt;li&gt;英文&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今日體驗&#34;&gt;今日體驗&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;明天開始是大學生的九天連假，不過我猜只能在家打code，pygame的專案下禮拜要展出，然後星期五的演算法也要考，覺得快喘不過氣了，希望能撐得住，明天也有比賽要打，希望能過順利。接下來九天應該不定期更新&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今日做到的事情&#34;&gt;今日做到的事情&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 念演算法&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Diary21</title>
-      <link>http://localhost:1313/blog/2019/03/diary21/</link>
+      <link>http://localhost:1313/2019/03/diary21/</link>
       <pubDate>Fri, 29 Mar 2019 02:00:36 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2019/03/diary21/</guid>
-      <description>&lt;h2 id=&#34;今日課程&#34;&gt;今日課程&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;科技管理&lt;/li&gt;&#xA;&lt;li&gt;計算機組織&lt;/li&gt;&#xA;&lt;li&gt;NISRA&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今日體驗&#34;&gt;今日體驗&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;凌晨兩點還是寫了日記，早上通識做pygame，下午計算機組織joseph考的水水的，不知道會不會烙賽，晚上NISRA是chess上php，不過我得忙著做web作業，結果我的作業都是howhow耶&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;我的作業分享&#34;&gt;我的作業分享&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/blog/lab04&#34;&gt;贓連結&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今日做到的事情&#34;&gt;今日做到的事情&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; web作業&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <guid>http://localhost:1313/2019/03/diary21/</guid>
+      <description>&lt;h2 id=&#34;今日課程&#34;&gt;今日課程&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;科技管理&lt;/li&gt;&#xA;&lt;li&gt;計算機組織&lt;/li&gt;&#xA;&lt;li&gt;NISRA&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今日體驗&#34;&gt;今日體驗&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;凌晨兩點還是寫了日記，早上通識做pygame，下午計算機組織joseph考的水水的，不知道會不會烙賽，晚上NISRA是chess上php，不過我得忙著做web作業，結果我的作業都是howhow耶&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;我的作業分享&#34;&gt;我的作業分享&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/lab04&#34;&gt;贓連結&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今日做到的事情&#34;&gt;今日做到的事情&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; web作業&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Diary20</title>
-      <link>http://localhost:1313/blog/2019/03/diary20/</link>
+      <link>http://localhost:1313/2019/03/diary20/</link>
       <pubDate>Wed, 27 Mar 2019 22:47:20 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2019/03/diary20/</guid>
+      <guid>http://localhost:1313/2019/03/diary20/</guid>
       <description>&lt;h2 id=&#34;今日課程&#34;&gt;今日課程&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;只有視訊處理&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今日體驗&#34;&gt;今日體驗&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;今天睡到飽，起來就是打pygame，去圖書館打pygame，到學校後小念計組，念完覺得要去祭祖，單壓乘一，加一個諧音梗，怎麼那麼優質，然後還是打Pygame，晚上在做封面耶&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;封面分享&#34;&gt;封面分享&lt;/h2&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;h2 id=&#34;今日做到的事情&#34;&gt;今日做到的事情&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Pygame and Pygame and Pygame&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 計組甚麼就算了&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Diary19</title>
-      <link>http://localhost:1313/blog/2019/03/diary19/</link>
+      <link>http://localhost:1313/2019/03/diary19/</link>
       <pubDate>Tue, 26 Mar 2019 23:34:26 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2019/03/diary19/</guid>
+      <guid>http://localhost:1313/2019/03/diary19/</guid>
       <description>&lt;h2 id=&#34;今日課程&#34;&gt;今日課程&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;泛型&lt;/li&gt;&#xA;&lt;li&gt;防身術&lt;/li&gt;&#xA;&lt;li&gt;CPE&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;在此致歉&#34;&gt;在此致歉&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;這次比賽又遇到最小生成樹了，我又忘記怎麼寫了，在此向大眾懺悔&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今日體驗&#34;&gt;今日體驗&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;明天早上放假耶，不過還是要做pygame。早上試著把泛型作業弄一弄，剩下一個小部分還沒弄完，然後似乎老師要考筆試，我覺得要完蛋了。今天防身術真的累到不行，老師一直不斷地要我們踢腳，打拳，覺得有一種眼冒金星的感覺，不過運動完真的比較舒服一點，又讓我想起以前每天下課打排球的感覺，打到天黑才回家。CPE這次題目比較簡單一點，不過沒有把spanning tree刻出來真的該被打哀，老師都講過好幾次了，覺得可惜。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;感謝某位人士提供當年打球照片&#34;&gt;感謝某位人士提供當年打球照片&lt;/h2&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;h2 id=&#34;今日做到的事情&#34;&gt;今日做到的事情&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 寫泛型作業&lt;/li&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; pygame&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Diary18</title>
-      <link>http://localhost:1313/blog/2019/03/diary18/</link>
+      <link>http://localhost:1313/2019/03/diary18/</link>
       <pubDate>Mon, 25 Mar 2019 21:38:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2019/03/diary18/</guid>
+      <guid>http://localhost:1313/2019/03/diary18/</guid>
       <description>&lt;h2 id=&#34;今日課程&#34;&gt;今日課程&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;工程數學&lt;/li&gt;&#xA;&lt;li&gt;web&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今日體驗&#34;&gt;今日體驗&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;今天CPC暫停一天，今天早上的工數又在玩抓錯遊戲了，今天共得了七分，沒想到老師過程都用掰的最後答案都會對，後來就決定自己算，然後看老師哪裡有錯誤，web已經開始討論要做專題了，覺得時間過得很快，也越來越多東西要處理，覺得有點心煩，最近依然在寫pygame。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今日做到的事情&#34;&gt;今日做到的事情&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 英文小說&lt;/li&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Pygame&lt;/li&gt;&#xA;&lt;li&gt;已經開始有點不太均衡QQ&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Diary17</title>
-      <link>http://localhost:1313/blog/2019/03/diary17/</link>
+      <link>http://localhost:1313/2019/03/diary17/</link>
       <pubDate>Fri, 22 Mar 2019 19:19:36 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2019/03/diary17/</guid>
+      <guid>http://localhost:1313/2019/03/diary17/</guid>
       <description>&lt;h2 id=&#34;今日課程&#34;&gt;今日課程&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;演算法&lt;/li&gt;&#xA;&lt;li&gt;英文&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今日體驗&#34;&gt;今日體驗&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;演算法終於把上次沒有證明成功的merge-sort證完了，只能說估複雜度實在是很麻煩，不過似乎是必經之路，英文課依然是先測驗，再上課，覺得有點無趣了。下禮拜似乎也是個大考驗，希望能比這星期進步&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今日做到的事情&#34;&gt;今日做到的事情&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 英文小說&lt;/li&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Pygame-debuging&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Diary16</title>
-      <link>http://localhost:1313/blog/2019/03/diary16/</link>
+      <link>http://localhost:1313/2019/03/diary16/</link>
       <pubDate>Thu, 21 Mar 2019 23:09:48 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2019/03/diary16/</guid>
+      <guid>http://localhost:1313/2019/03/diary16/</guid>
       <description>&lt;h2 id=&#34;今日課程&#34;&gt;今日課程&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;科技管理&lt;/li&gt;&#xA;&lt;li&gt;計組&lt;/li&gt;&#xA;&lt;li&gt;traning&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今日體驗&#34;&gt;今日體驗&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;早上依然在debug，終於研究出地圖編輯器與pygame的連結，還有障礙物的控制，雖然目前還有一些問題，希望能夠快速解決。計組考試完全炸掉，五題只會算一題，最近這陣子都在搞pygame也沒有把之前題目算完，只有累而已。training在講SQL的用法，當年大一的時候完全是茫的，這次聽完之後清楚許多，不過有些奇淫技巧還需多揣摩，很容易姿勢不對。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今日做到的事情&#34;&gt;今日做到的事情&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 英文小說&lt;/li&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Pygame-debuging&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Diary15</title>
-      <link>http://localhost:1313/blog/2019/03/diary15/</link>
+      <link>http://localhost:1313/2019/03/diary15/</link>
       <pubDate>Wed, 20 Mar 2019 21:36:38 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2019/03/diary15/</guid>
+      <guid>http://localhost:1313/2019/03/diary15/</guid>
       <description>&lt;h2 id=&#34;今日課程&#34;&gt;今日課程&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;OS&lt;/li&gt;&#xA;&lt;li&gt;Pygame&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今日體驗&#34;&gt;今日體驗&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;OS因為沒有預習，感覺有點沒有聽懂，可能還要花時間彌補回來，Pygame的時候一直研究遊戲背景圖片的更新，結果找到一個蠻好用的工具，目前正在研究中，可能這幾天會卯起來研究吧，今天可以早點回家開心。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今日做到的事情&#34;&gt;今日做到的事情&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 英文小說&lt;/li&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Pygame研究中&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Diary14</title>
-      <link>http://localhost:1313/blog/2019/03/diary14/</link>
+      <link>http://localhost:1313/2019/03/diary14/</link>
       <pubDate>Tue, 19 Mar 2019 22:35:12 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2019/03/diary14/</guid>
+      <guid>http://localhost:1313/2019/03/diary14/</guid>
       <description>&lt;h2 id=&#34;今日課程&#34;&gt;今日課程&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;泛型&lt;/li&gt;&#xA;&lt;li&gt;防身術&lt;/li&gt;&#xA;&lt;li&gt;NISRA&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今日體驗&#34;&gt;今日體驗&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;早上的泛型原本想說打個pygame，結果老師突襲要課堂小考，把他給的link-listcode，overloading到可以用std::find，已經很久沒有寫c++，已經完全忘記，而且當時大一也沒有練習太多，加上腦袋都是Python，實在是很崩潰，感謝roy大大幫助&lt;code&gt;(m _ _)n&lt;/code&gt;。下午防身術一直在踢腳練習，很棒，我的筋的彈性又歸零了，加上又要踢腳，結果踢到腳有點小抽筋，豈不卑栽。晚上NISRA是大大來講課，講的偏向大方向的東西，收穫頗多，也希望一直能保持一顆學習的心。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;最近煩惱&#34;&gt;最近煩惱&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;開始有巨大的壓力，3個專案迎面而來，加上必修的壓力，甚至有些技術沒什麼基礎可言，然後又想練習ctf，然後程式競賽也不能放棄。開始有一種感覺，就像是每個地方都有火在燒，然後每天遇到該科就去撲滅那團火，但其他地方還是在燒的旺盛，覺得就像斷腸人說的，點了就不要後悔。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今日做到的事情&#34;&gt;今日做到的事情&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 英文小說&lt;/li&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 準備計組考試&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Diary13</title>
-      <link>http://localhost:1313/blog/2019/03/diary13/</link>
+      <link>http://localhost:1313/2019/03/diary13/</link>
       <pubDate>Mon, 18 Mar 2019 23:44:22 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2019/03/diary13/</guid>
+      <guid>http://localhost:1313/2019/03/diary13/</guid>
       <description>&lt;h2 id=&#34;居居&#34;&gt;居居&lt;/h2&gt;&#xA;&lt;p&gt;上星期已破功一天，直接忘記更新然後就睡著了，結果都沒更新，接下來很可能會出現相同情況，敬請見諒&lt;/p&gt;&#xA;&lt;h2 id=&#34;今日課程&#34;&gt;今日課程&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;工程數學&lt;/li&gt;&#xA;&lt;li&gt;web&lt;/li&gt;&#xA;&lt;li&gt;CPC&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今日體驗&#34;&gt;今日體驗&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;今天工數老師很有趣，特別是homogeneous的發音，非常的獨特，而他的文字依然是相當有風格，而且老師也是一直寫錯，結果後來就都一直在抓錯，web課依然是自習打Pygame，不過有稍微停下來聽Ajax的原理，然後web的專案似乎也要來了，晚上CPC複習了Floyd-Warshall，Bellman-Ford，稍微有回憶一下，但實作的部分就&amp;hellip;下集待續&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今日做到的事情&#34;&gt;今日做到的事情&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 英文小說&lt;/li&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 寫Pygame&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Diary12</title>
-      <link>http://localhost:1313/blog/2019/03/diary12/</link>
+      <link>http://localhost:1313/2019/03/diary12/</link>
       <pubDate>Fri, 15 Mar 2019 00:48:01 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2019/03/diary12/</guid>
+      <guid>http://localhost:1313/2019/03/diary12/</guid>
       <description>&lt;h2 id=&#34;今日課程&#34;&gt;今日課程&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;科技管理&lt;/li&gt;&#xA;&lt;li&gt;計算機組織&lt;/li&gt;&#xA;&lt;li&gt;training&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今日體驗&#34;&gt;今日體驗&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;基本上今天一整天幾乎都在做視訊處理的作業，在通識課上唯一記得的就是老師的三種模式，&lt;code&gt;好、ok好、ok~&lt;/code&gt;，然後計組下星期要考試，結果完全沒在聽，似乎是一個爆炸的概念。training今天在教xxe攻擊手法，之前有碰過一次但沒有很熟，所以在打題目的時候也是蠻茫的，今天領悟到，每天只要比前一天的我更進步就好了，但現在的情況，就如同一大堆火正在燒，但人的能力就只能讓一團火熄掉，再多也會把自己的身體燒壞掉。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今日做到的事情&#34;&gt;今日做到的事情&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 視訊處理作業&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 說好的微分方程?&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Diary11</title>
-      <link>http://localhost:1313/blog/2019/03/diary11/</link>
+      <link>http://localhost:1313/2019/03/diary11/</link>
       <pubDate>Wed, 13 Mar 2019 23:19:22 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2019/03/diary11/</guid>
+      <guid>http://localhost:1313/2019/03/diary11/</guid>
       <description>&lt;h2 id=&#34;今日課程&#34;&gt;今日課程&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;作業系統&lt;/li&gt;&#xA;&lt;li&gt;視訊處理&lt;/li&gt;&#xA;&lt;li&gt;ITSA&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今日體驗&#34;&gt;今日體驗&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;今天上課精神相當差，完全就是沒有睡飽的狀態，有很大一部分是走鐘獎的關係QQ，體驗到沒睡飽腦袋完全不會動的感覺。下午雖然有睡一下，不過依舊精神不濟，做pygame時一直恍神，晚上ITSA也蠻悲劇的，近幾個禮拜最悲慘的一天。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今日做到的事情&#34;&gt;今日做到的事情&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 心靈受創&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Diary10</title>
-      <link>http://localhost:1313/blog/2019/03/diary10/</link>
+      <link>http://localhost:1313/2019/03/diary10/</link>
       <pubDate>Wed, 13 Mar 2019 00:10:40 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2019/03/diary10/</guid>
+      <guid>http://localhost:1313/2019/03/diary10/</guid>
       <description>&lt;h2 id=&#34;今日課程&#34;&gt;今日課程&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;泛型&lt;/li&gt;&#xA;&lt;li&gt;防身術&lt;/li&gt;&#xA;&lt;li&gt;NISRA講課&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今日體驗&#34;&gt;今日體驗&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;早上泛型都在刷一些圖論的基本題目，已經很久沒有打競賽型的code了，結果就是變得有夠生疏，神秘的bug都會出現然後找不到。下午防身術練打拳與踢腿，我的柔軟度依然是處於悲劇狀態，是需要每天拉一下了。晚上的講課我認為講的難度有點高，導致普遍很像都聽不太懂的樣子，之後也需要再調整。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今日做到的事情&#34;&gt;今日做到的事情&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 刷了幾題圖論&lt;/li&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 成功講課&lt;/li&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 看一下OS&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 泛型以休眠一個星期&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; CTF?&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Diary09</title>
-      <link>http://localhost:1313/blog/2019/03/diary09/</link>
+      <link>http://localhost:1313/2019/03/diary09/</link>
       <pubDate>Mon, 11 Mar 2019 21:04:29 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2019/03/diary09/</guid>
+      <guid>http://localhost:1313/2019/03/diary09/</guid>
       <description>&lt;h2 id=&#34;今日課程&#34;&gt;今日課程&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;工程數學&lt;/li&gt;&#xA;&lt;li&gt;web&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今日體驗&#34;&gt;今日體驗&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;早上上微分方程，又是假日之後的腦力激盪，感覺就像派大星腦袋在轉動一樣，有個齒輪在磨損的感覺。web的部分，都在做自己的事，也開始在想專題要做甚麼了，找了一些資料來看。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今天做到的事情&#34;&gt;今天做到的事情&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 打code&lt;/li&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 算微分方程&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Diary08</title>
-      <link>http://localhost:1313/blog/2019/03/diary08/</link>
+      <link>http://localhost:1313/2019/03/diary08/</link>
       <pubDate>Fri, 08 Mar 2019 22:22:39 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2019/03/diary08/</guid>
+      <guid>http://localhost:1313/2019/03/diary08/</guid>
       <description>&lt;h2 id=&#34;今日課程&#34;&gt;今日課程&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;演算法&lt;/li&gt;&#xA;&lt;li&gt;英文&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今日體驗&#34;&gt;今日體驗&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;總覺得演算法認真聽課還是會有聽不懂的現象，明明很專注在每個字句，還是感覺沒有真正的搞懂，目前還在調整方式。然後深深覺得我的英文真的不好，感覺需要長期的練習。晚上打了一些之前ITSA不會的題目。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今天做到的事情&#34;&gt;今天做到的事情&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 空白&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Diary07</title>
-      <link>http://localhost:1313/blog/2019/03/diary07/</link>
+      <link>http://localhost:1313/2019/03/diary07/</link>
       <pubDate>Fri, 08 Mar 2019 00:46:05 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2019/03/diary07/</guid>
+      <guid>http://localhost:1313/2019/03/diary07/</guid>
       <description>&lt;h2 id=&#34;今日課程&#34;&gt;今日課程&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;通識&lt;/li&gt;&#xA;&lt;li&gt;計算機組織&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今日體驗&#34;&gt;今日體驗&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;今天很像一整天都在看ithome的文章，看看別人的技術文件，上課就完全沒有在聽。不過聽說下下星期有考試，實在是不太想準備計算機組織，晚上學弟請吃飯讚讚的，覺得今天沒有前幾天那們認真QAQ&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今天做到的事情&#34;&gt;今天做到的事情&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 英文小說&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Diary06</title>
-      <link>http://localhost:1313/blog/2019/03/diary06/</link>
+      <link>http://localhost:1313/2019/03/diary06/</link>
       <pubDate>Wed, 06 Mar 2019 22:35:30 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2019/03/diary06/</guid>
+      <guid>http://localhost:1313/2019/03/diary06/</guid>
       <description>&lt;h2 id=&#34;今日課程&#34;&gt;今日課程&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;OS&lt;/li&gt;&#xA;&lt;li&gt;視訊處理&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今日體驗&#34;&gt;今日體驗&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;早上OS的課後面有一些專有名詞我沒有很了解，可能需要再多複習，精神狀態中等，下午把泛型的作業改改，接著上Python，然後pyhton也有畫圖的程式，不過感覺可能花的時間會比gnuplot多，今天過的蠻平淡的，三天中午都吃全聯的便當，一如往常。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今天做到的事情&#34;&gt;今天做到的事情&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 英文小說&lt;/li&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 算工數&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Diary05</title>
-      <link>http://localhost:1313/blog/2019/03/diary05/</link>
+      <link>http://localhost:1313/2019/03/diary05/</link>
       <pubDate>Tue, 05 Mar 2019 23:25:52 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2019/03/diary05/</guid>
+      <guid>http://localhost:1313/2019/03/diary05/</guid>
       <description>&lt;h2 id=&#34;今日課程&#34;&gt;今日課程&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;泛型&lt;/li&gt;&#xA;&lt;li&gt;防身術&lt;/li&gt;&#xA;&lt;li&gt;NISRA&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今日體驗&#34;&gt;今日體驗&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;早上的泛型都在做作業，一直想要嘗試把圖畫到好，然後一直怕code又問題，結果就不停地一直重跑它，感謝同組隊友把自動生excel寫好，感恩萬分。下午防身術成功學會幾招新招，不過真覺得體力已在下滑，做個伏地挺身跟仰臥起坐就累得半死。晚上NISRA大大來講課，真的厲害，今天也順利的預演下禮拜講課。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今天做到的事情&#34;&gt;今天做到的事情&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;今天甚麼都沒做到&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Diary04</title>
-      <link>http://localhost:1313/blog/2019/03/diary04/</link>
+      <link>http://localhost:1313/2019/03/diary04/</link>
       <pubDate>Mon, 04 Mar 2019 23:34:22 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2019/03/diary04/</guid>
+      <guid>http://localhost:1313/2019/03/diary04/</guid>
       <description>&lt;h2 id=&#34;今日課程&#34;&gt;今日課程&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;工數&lt;/li&gt;&#xA;&lt;li&gt;web&lt;/li&gt;&#xA;&lt;li&gt;CPC&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今日體驗&#34;&gt;今日體驗&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;連假後的第一天上課，突然就多了好多事情要做，工程數學題目有一些真的需要每天練習，不然一定下禮拜又是從零開始，下午web精神不濟，靠打freecodecamp維持住精神，晚上CPC數論，真的實在難理解QQ&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今天做到的事情&#34;&gt;今天做到的事情&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 複習工數&lt;/li&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 泛型作業&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Diary03</title>
-      <link>http://localhost:1313/blog/2019/02/diary03/</link>
+      <link>http://localhost:1313/2019/02/diary03/</link>
       <pubDate>Wed, 27 Feb 2019 23:13:22 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2019/02/diary03/</guid>
+      <guid>http://localhost:1313/2019/02/diary03/</guid>
       <description>&lt;h2 id=&#34;今日課程&#34;&gt;今日課程&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;作業系統OS&lt;/li&gt;&#xA;&lt;li&gt;視訊處理&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今日體驗&#34;&gt;今日體驗&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;早上的OS我很認真地聽了兩節課，但是第三節課精神狀態不太好，有點處於恍神狀態，不過還是有作筆記讚讚。下午班會實在有點無聊，於是打開手機又再開車了，視訊處理一樣在寫python，跟競賽的題目比起來，真的簡單很多，然後一直被老師說用筆電那四位，實在是有點監介呢，晚上配著星期天飛行直播看書，沒有太廢啦齁&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今天做到的事情&#34;&gt;今天做到的事情&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 複習工數&lt;/li&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 每天都應該念一點c++泛型&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 競賽題目練習&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Diary02</title>
-      <link>http://localhost:1313/blog/2019/02/diary02/</link>
+      <link>http://localhost:1313/2019/02/diary02/</link>
       <pubDate>Wed, 27 Feb 2019 12:09:17 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2019/02/diary02/</guid>
+      <guid>http://localhost:1313/2019/02/diary02/</guid>
       <description>&lt;h2 id=&#34;今日課程&#34;&gt;今日課程&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;c++泛型&lt;/li&gt;&#xA;&lt;li&gt;防身術&lt;/li&gt;&#xA;&lt;li&gt;NISRA&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今日體驗&#34;&gt;今日體驗&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;早上的課老師把他上禮拜給的code詳細說明一遍，也出了一項作業給我們，計算每項步驟所花的時間，想要把它做成一張好看的圖。下午的防身術又讓我學到一些新招，老師終於教了同手該怎麼應對，另外上禮拜原本不熟的動作，終於今天會了。晚上NISRA很像我都沒有打共筆我感到懺悔，不過我有一直跑下去看大家的情況。然後發現到下下禮拜要講課了，很怕自己講得太快或太慢，內容會不會做太多太少之類的，做的過程也發現許多東西沒有到很熟，不過也只能繼續充實自己了。今天差點就沒更新，希望明天很開心，單壓乘一結束這回合:)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今天做到的事情&#34;&gt;今天做到的事情&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 把我的ppt移動到slides上&lt;/li&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 複習工數&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 每天都應該念一點c++泛型(今天有打code可以休息一天嗎QQ)&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 競賽題目練習&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Diary01</title>
-      <link>http://localhost:1313/blog/2019/02/diary01/</link>
+      <link>http://localhost:1313/2019/02/diary01/</link>
       <pubDate>Mon, 25 Feb 2019 16:49:17 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2019/02/diary01/</guid>
+      <guid>http://localhost:1313/2019/02/diary01/</guid>
       <description>&lt;h2 id=&#34;今日課程&#34;&gt;今日課程&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;工程數學&lt;/li&gt;&#xA;&lt;li&gt;web基礎&lt;/li&gt;&#xA;&lt;li&gt;CPC&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;今日體驗&#34;&gt;今日體驗&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;今天感受到我的微積分已經成為危機，於是下定決心要每天都複習一些，以及透過網站來記錄每天的概況，下午的web很像都在打CSS的練習，沒有很認真聽課XD。然後強烈發現到當要學習新東西時，切記要把學到的東西記錄下，否則記憶將在一周後自動消失。本日最後再研究這個hexo框架如何插入Latex，但是最後還是沒找到解決方法，直接QQ一波，好吧今天就這樣ㄅㄅ。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;每天行事曆&#34;&gt;每天行事曆&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 每天都應該念一點c++泛型&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 英文小說&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 競賽題目練習&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>

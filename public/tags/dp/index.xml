@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dp on William&#39;s Blog</title>
-    <link>http://localhost:1313/blog/tags/dp/</link>
+    <link>http://localhost:1313/tags/dp/</link>
     <description>Recent content in Dp on William&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 14 Aug 2019 15:27:53 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/dp/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/dp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Uva10684 The jackpot</title>
-      <link>http://localhost:1313/blog/2019/08/uva10684-the-jackpot/</link>
+      <link>http://localhost:1313/2019/08/uva10684-the-jackpot/</link>
       <pubDate>Wed, 14 Aug 2019 15:27:53 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2019/08/uva10684-the-jackpot/</guid>
+      <guid>http://localhost:1313/2019/08/uva10684-the-jackpot/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;題目&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;要找到連續賭局最大可能贏到的錢，正代表獲勝，負責代表輸錢&lt;/li&gt;&#xA;&lt;li&gt;如果都是輸錢就印出Losing streak.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;題目思路&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;用dp記錄目前到此局能贏取最多錢的數目，與當格比，如果當格較大就從他開始取&lt;/li&gt;&#xA;&lt;li&gt;ex: -1,2,3，紀錄到2的時候，如果取-1,2只能贏一塊錢，所以我們選擇只取2，該格的dp就紀錄2&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;code&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;這題自己沒有想出來，我的dp還是有障礙&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/william31212/uva/blob/master/uva10684/uva10684.cpp&#34;&gt;https://github.com/william31212/uva/blob/master/uva10684/uva10684.cpp&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Uva825 Walking on the Safe Side</title>
-      <link>http://localhost:1313/blog/2019/08/uva825-walking-on-the-safe-side/</link>
+      <link>http://localhost:1313/2019/08/uva825-walking-on-the-safe-side/</link>
       <pubDate>Wed, 14 Aug 2019 15:20:47 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2019/08/uva825-walking-on-the-safe-side/</guid>
+      <guid>http://localhost:1313/2019/08/uva825-walking-on-the-safe-side/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;題目&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;人只能走往左走跟往下走，然後有幾個地方有障礙物，問說從左上走到右下有幾種方法&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;解題思路&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;想了一下發現是dp，每一格都儲存從上面跟左邊總共有幾種方法，然後初始狀態就一種。&lt;/li&gt;&#xA;&lt;li&gt;右下角那格就答案，維護時建議用1-index比較好做&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;code&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/william31212/uva/blob/master/uva825/uva825.cpp&#34;&gt;https://github.com/william31212/uva/blob/master/uva825/uva825.cpp&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Uva10625 GNU = GNU&#39;sNotUnix</title>
-      <link>http://localhost:1313/blog/2019/08/uva10625-gnu-gnusnotunix/</link>
+      <link>http://localhost:1313/2019/08/uva10625-gnu-gnusnotunix/</link>
       <pubDate>Wed, 14 Aug 2019 14:52:19 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2019/08/uva10625-gnu-gnusnotunix/</guid>
+      <guid>http://localhost:1313/2019/08/uva10625-gnu-gnusnotunix/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;寫題解讓自己可以review一次自己寫了甚麼&amp;hellip;&#xA;幾百年沒刷題，程式能力依然爛QQ&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;題目&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;有一段字串需要照他的規定做轉換，例如例題的G就要換成GNU&amp;rsquo;s&lt;/li&gt;&#xA;&lt;li&gt;給了原字串要問經過幾次轉換，他詢問的該個字母有幾個，最多轉換10000次&lt;/li&gt;&#xA;&lt;li&gt;每個答案要間隔一個換行&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;解題思路&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;因為題目只是將一個字母轉換成字串，因此我們只需要計算每個字母在每次轉換的總數有幾個，不需照著做轉換。&lt;/li&gt;&#xA;&lt;li&gt;而題目有提到會出現的字元Ascii是從33~126之間，因此只要維護一個dp表格(我是直接開200)&lt;/li&gt;&#xA;&lt;li&gt;用tmp紀錄字母在轉換時會增加多少個不同的字母數量，接著看上一層狀態該個字母有多少就乘以他的幾倍，紀錄到下一格狀態&lt;/li&gt;&#xA;&lt;li&gt;如果紀錄每次狀態，陣列空間會太大，因此每次轉換過後，需要將結果狀態回灌給上一層，這樣只需要兩層的空間。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;code&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/william31212/uva/blob/master/uva10625/uva10625.cpp&#34;&gt;https://github.com/william31212/uva/blob/master/uva10625/uva10625.cpp&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on William&#39;s Blog</title>
-    <link>http://localhost:1313/blog/tags/blog/</link>
+    <link>http://localhost:1313/tags/blog/</link>
     <description>Recent content in Blog on William&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 28 Jun 2020 13:16:47 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Editblog - font</title>
-      <link>http://localhost:1313/blog/2020/06/editblog-font/</link>
+      <link>http://localhost:1313/2020/06/editblog-font/</link>
       <pubDate>Sun, 28 Jun 2020 13:16:47 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2020/06/editblog-font/</guid>
+      <guid>http://localhost:1313/2020/06/editblog-font/</guid>
       <description>&lt;p&gt;部落格字體調整紀實&lt;/p&gt;&#xA;&lt;h2 id=&#34;hexo-tranquilpeak調整字體&#34;&gt;hexo-tranquilpeak調整字體&lt;/h2&gt;&#xA;&lt;h3 id=&#34;動機&#34;&gt;動機&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;因為原本英文字體我看得很不習慣，他是&lt;code&gt;Merriweather&lt;/code&gt;，於是想要改它&lt;/li&gt;&#xA;&lt;li&gt;示意圖&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;img src=&#34;https://i.imgur.com/iRSoP4H.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;過程&#34;&gt;過程&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;嘗試過docs裡面改字體的方法，不過沒有成功，於是直接朝向css下手&lt;/li&gt;&#xA;&lt;li&gt;透過Chrome的開發者工具，能夠知道它實際css的位置&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;img src=&#34;https://i.imgur.com/KBBWiuS.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;必須更改&lt;code&gt;source/theme/assets/style-c4ozc........css&lt;/code&gt;，如果改public的，下一次&lt;code&gt;hexo generate&lt;/code&gt;會將記錄洗掉&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;img src=&#34;https://i.imgur.com/fU55nyt.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;改的位置在&lt;code&gt;.postShorten .postShorten-content, .postShorten .postShorten-excerpt&lt;/code&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;img src=&#34;https://i.imgur.com/STJF2Wd.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;hexo g&lt;/code&gt;發布後即可更改&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;採坑&#34;&gt;採坑&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Chrome很像會紀錄之前的&lt;code&gt;css&lt;/code&gt;，導致我一直以為我沒改成功，打開無痕後發現有改成功，字體為&lt;code&gt;medium-content-serif-font&lt;/code&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;img src=&#34;https://i.imgur.com/di3UlOn.pngf&#34; alt=&#34;&#34;&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;解法&#34;&gt;解法&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;code&gt;F12&lt;/code&gt;打開開發者工具，接著在&lt;code&gt;reload icon&lt;/code&gt;按下右鍵，強制重整&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;img src=&#34;https://i.imgur.com/lsevPPx.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;參考自: &lt;a href=&#34;https://caloskao.org/chrome-%E6%B8%85%E9%99%A4%E5%BF%AB%E5%8F%96%E7%9A%84%E4%B8%89%E7%A8%AE%E6%96%B9%E6%B3%95/&#34;&gt;https://caloskao.org/chrome-%E6%B8%85%E9%99%A4%E5%BF%AB%E5%8F%96%E7%9A%84%E4%B8%89%E7%A8%AE%E6%96%B9%E6%B3%95/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
